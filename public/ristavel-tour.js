@@ -27,7 +27,12 @@
 // 20. Hærri rað-aðgerðir (higher-order transforms)
 // 21. Nótnaheiti (note & scale names)
 // 22. Athugasemdir (comments)
-// 23. Orðasmíð (coinage)
+// 23. Taktur og reikningur (tempo & arithmetic)
+// 24. Merkjasveiflur (signal LFOs)
+// 25. Gildaraðir (cat / timecat sequences)
+// 26. Val úr mynstrum (pick)
+// 27. Kaflar og útsetning (sections & arrange)
+// 28. Orðasmíð (coinage)
 
 await ohmlang('https://æ.is/public/ristavel.mjs')
 
@@ -266,12 +271,57 @@ ohmjs`nótur „0 1 2 3 4“, skali „c:dúr“.`
 
 // 22. Athugasemdir (comments)
 
-// Svigaathugasemd er hunsuð — parenthetical (…) is treated as whitespace and ignored anywhere
+// Bandstriksathugasemd er hunsuð — a hyphen-delimited aside - like this - is treated as whitespace and ignored anywhere
 // → sound("bd sd").room("0.5")
-ohmjs`hljóð „bd sd“ (mjúkur taktur), ómur „0.5“.`
+ohmjs`hljóð „bd sd“ - mjúkur taktur -, ómur „0.5“.`
 
 
-// 23. Orðasmíð (coinage)
+// 23. Taktur og reikningur (tempo & arithmetic)
+
+// Taktur með reikningi — set the cycle tempo with arithmetic: 140 deilt með 4 → 140/4 (also sinnum/plús/mínus)
+// → setcpm(140 / 4)
+ohmjs`Takturinn er 140 deilt með 4.`
+
+
+// 24. Merkjasveiflur (signal LFOs)
+
+// Merkjasveifla sem stilliviðfang — „fylgir“ feeds a live signal as an argument: a saw LFO swept over a range, slowed
+// → sound("bd*4").lpf(saw.range(200, 2000).slow(4))
+ohmjs`hljóð „bd*4“, lágtíðnihleypir fylgir sög, bil 200 og 2000, hægt 4.`
+
+
+// 25. Gildaraðir (cat / timecat sequences)
+
+// Gildaröð (cat) með „þá“ — þá strings values into a cat sequence, one per cycle; then slowed
+// → sound("bd sd").gain(cat(1, 0.5, 0.25).slow(2))
+ohmjs`hljóð „bd sd“, styrkur fylgir 1 þá 0.5 þá 0.25, hægt 2.`
+
+// Vegin gildaröð (timecat) með „vog … á …“ — vog W á V weights each step: vog 3 á 1 holds 1 three times as long as vog 1 á 0.2
+// → sound("bd sd hh cp").gain(timecat([3, 1], [1, 0.2]))
+ohmjs`hljóð „bd sd hh cp“, styrkur fylgir vog 3 á 1 þá vog 1 á 0.2.`
+
+
+// 26. Val úr mynstrum (pick)
+
+// Val úr mynstrum (pick) með „velur úr … eða …“ — an index pattern picks between option patterns: „0 1 0 1“ chooses „x ~“ / „x x“
+// → sound("hh").struct("0 1 0 1".pick(["x ~", "x x"]))
+ohmjs`hljóð „hh“, uppbygging fylgir „0 1 0 1“ velur úr „x ~“ eða „x x“.`
+
+
+// 27. Kaflar og útsetning (sections & arrange)
+
+// Kaflar og útsetning (sections & arrange) — a „Kaflinn …:“ paragraph names a stack; „Raðaðu“ sequences sections by cycle-count. Multi-paragraph — select the whole block and run it together.
+// → const taktur = stack(sound("bd ~"), sound("~ sd"))
+// 
+// arrange([4, taktur])
+ohmjs`Kaflinn taktur:
+hljóð „bd ~“.
+hljóð „~ sd“.
+
+Raðaðu: 4 lotur af taktur.`
+
+
+// 28. Orðasmíð (coinage)
 // Coinage mints a NEW Icelandic word for a function that lacks one (aliasFuncs).
 // The mint line makes no sound (→ silence); afterwards the word — and its
 // inflections — behave like any native word. Run the mint block, then the use block.
