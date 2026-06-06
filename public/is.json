@@ -90,5 +90,25 @@
     "neðriToppur": 5000,
     "toppur": 10000,
     "efriToppur": 16000
+  },
+  "notes": {
+    "b": "h",
+    "c#": "cis",
+    "d#": "dis",
+    "e#": "eis",
+    "f#": "fis",
+    "g#": "gis",
+    "a#": "ais",
+    "b#": "his",
+    "cb": "ces",
+    "db": "des",
+    "eb": "es",
+    "fb": "fes",
+    "gb": "ges",
+    "ab": "as"
+  },
+  "scales": {
+    "major": "dúr",
+    "minor": "moll"
   }
 }

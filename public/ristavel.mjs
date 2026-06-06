@@ -3480,12 +3480,14 @@ Ristavel <: RistavelBase {
   _iter(...r) {
     return r.map((e) => e.translate());
   }
-}, Rr = { lpf: ["lágtíðnihleypir", "lth"], hpf: ["háttíðnihleypir", "hth"], accelerate: ["hröðun", "inngjöf"], adsr: ["umslag"], always: "alltaf", amp: "mögnun", arp: ["runa", "röð"], attack: "svörun", bank: "banki", begin: "byrja", cat: ["samanlíming", "samsetning", "strengjalíming", "strengjasamsetning", "líming", "Lím"], chop: ["höggva"], choose: ["velja"], color: "litur", compress: "þjappa", compressor: "þjappari", cpm: ["hringrásarhraði", "hrh", "hringirámínútu", "hám"], crush: ["kremja", "milja", "kreista"], cut: ["klippa", "saxa"], cutoff: ["afskurður"], delay: ["endurkast", "endurvarp"], distort: ["bjaga", "bjögun"], echo: ["endurómun", "ómun"], echoWith: ["ómunMeð", "ómaMeð"], every: "hvert", expand: "útvíkka", extend: "framlengja", fast: ["fljótt", "hratt", "hraðar", "snöggt"], fastChunk: "hraðBiti", fastGap: "hraðBil", filter: "sía", filterValues: "síuGildi", filterWhen: "síaÞegar", floor: "gólf", freq: "tíðni", gain: ["hljóðstyrkur", "styrkur", "læti", "hávaði"], hurry: ["drífaSig", "hraðaÁsér", "flýtaSér"], hush: ["uss", "suss", "þögn"], mask: ["gríma"], note: ["nótur", "nóta"], pan: ["staðsetning", "staður"], range: ["bil", "svið"], room: ["rými", "ómur"], s: "h", scale: "skali", scramble: ["rugla", "hræra"], setcpm: ["setjaHringrásarhraða", "setjaHrh", "setjaHringirámínútu", "setjaHám"], slow: "hægt", slowcat: ["hæglíming", "hægsetning", "hægLím"], sometimes: ["stundum"], sometimesBy: ["stundumUm"], sound: "hljóð", speed: "hraði", spread: "dreifa", squiz: ["kreista"], stack: ["bunki", "stafli"], striate: ["ráka", "rispa", "strífa"], struct: ["uppbygging", "strúktúr"], sustain: "viðhalda", take: "taka", velocity: "hraði", vowel: ["sérhljóðar", "sérhljóði"], when: "þegar", whenKey: "þegarLykill", zoom: "stækka" }, Pr = { red: "rauður", green: "grænn", blue: "blár", yellow: "gulur", cyan: "blágrænn", magenta: "fjólublár", black: "svartur", white: "hvítur", gray: "grár", orange: "appelsínugulur", purple: "fjólublár", pink: "bleikur", brown: "brúnn" }, jr = { botn: 50, efriBotn: 120, neðriMiðja: 300, miðja: 1e3, efriMiðja: 2e3, neðriToppur: 5e3, toppur: 1e4, efriToppur: 16e3 }, Lt = {
+}, Rr = { lpf: ["lágtíðnihleypir", "lth"], hpf: ["háttíðnihleypir", "hth"], accelerate: ["hröðun", "inngjöf"], adsr: ["umslag"], always: "alltaf", amp: "mögnun", arp: ["runa", "röð"], attack: "svörun", bank: "banki", begin: "byrja", cat: ["samanlíming", "samsetning", "strengjalíming", "strengjasamsetning", "líming", "Lím"], chop: ["höggva"], choose: ["velja"], color: "litur", compress: "þjappa", compressor: "þjappari", cpm: ["hringrásarhraði", "hrh", "hringirámínútu", "hám"], crush: ["kremja", "milja", "kreista"], cut: ["klippa", "saxa"], cutoff: ["afskurður"], delay: ["endurkast", "endurvarp"], distort: ["bjaga", "bjögun"], echo: ["endurómun", "ómun"], echoWith: ["ómunMeð", "ómaMeð"], every: "hvert", expand: "útvíkka", extend: "framlengja", fast: ["fljótt", "hratt", "hraðar", "snöggt"], fastChunk: "hraðBiti", fastGap: "hraðBil", filter: "sía", filterValues: "síuGildi", filterWhen: "síaÞegar", floor: "gólf", freq: "tíðni", gain: ["hljóðstyrkur", "styrkur", "læti", "hávaði"], hurry: ["drífaSig", "hraðaÁsér", "flýtaSér"], hush: ["uss", "suss", "þögn"], mask: ["gríma"], note: ["nótur", "nóta"], pan: ["staðsetning", "staður"], range: ["bil", "svið"], room: ["rými", "ómur"], s: "h", scale: "skali", scramble: ["rugla", "hræra"], setcpm: ["setjaHringrásarhraða", "setjaHrh", "setjaHringirámínútu", "setjaHám"], slow: "hægt", slowcat: ["hæglíming", "hægsetning", "hægLím"], sometimes: ["stundum"], sometimesBy: ["stundumUm"], sound: "hljóð", speed: "hraði", spread: "dreifa", squiz: ["kreista"], stack: ["bunki", "stafli"], striate: ["ráka", "rispa", "strífa"], struct: ["uppbygging", "strúktúr"], sustain: "viðhalda", take: "taka", velocity: "hraði", vowel: ["sérhljóðar", "sérhljóði"], when: "þegar", whenKey: "þegarLykill", zoom: "stækka" }, Pr = { red: "rauður", green: "grænn", blue: "blár", yellow: "gulur", cyan: "blágrænn", magenta: "fjólublár", black: "svartur", white: "hvítur", gray: "grár", orange: "appelsínugulur", purple: "fjólublár", pink: "bleikur", brown: "brúnn" }, jr = { botn: 50, efriBotn: 120, neðriMiðja: 300, miðja: 1e3, efriMiðja: 2e3, neðriToppur: 5e3, toppur: 1e4, efriToppur: 16e3 }, Er = { b: "h", "c#": "cis", "d#": "dis", "e#": "eis", "f#": "fis", "g#": "gis", "a#": "ais", "b#": "his", cb: "ces", db: "des", eb: "es", fb: "fes", gb: "ges", ab: "as" }, Fr = { major: "dúr", minor: "moll" }, Lt = {
   functions: Rr,
   colors: Pr,
-  constants: jr
+  constants: jr,
+  notes: Er,
+  scales: Fr
 };
-function Er(r = {}) {
+function Tr(r = {}) {
   const { aliasFuncs: e, aliasSamples: t, aliasNotes: n, aliasScales: s } = r;
   let i = [];
   const a = new Set(
@@ -3955,13 +3957,13 @@ function Er(r = {}) {
     }
   }, registerVocabulary: c };
 }
-const Tr = "ristavel", Dr = Lt;
-function Mr(r = {}) {
-  const { extended: e, registerVocabulary: t } = Er(r.locale), n = it.createSemantics().addOperation("translate", { ...Cr, ...e });
+const Mr = "ristavel", qr = Lt;
+function Br(r = {}) {
+  const { extended: e, registerVocabulary: t } = Tr(r.locale), n = it.createSemantics().addOperation("translate", { ...Cr, ...e });
   return { grammar: it, semantics: n, registerVocabulary: t };
 }
 export {
-  Mr as createLanguage,
-  Dr as locale,
-  Tr as name
+  Br as createLanguage,
+  qr as locale,
+  Mr as name
 };
