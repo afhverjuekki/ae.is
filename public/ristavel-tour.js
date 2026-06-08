@@ -333,7 +333,7 @@ ohmjs`Merktu „ymur“ sem ómur.`
 // → hljóð("bd").ymur("0.5")
 ohmjs`hljóð „bd“, ymurinn „0.5“.`
 
-// Coin a sample name (aliasSamples) — `trommur` is minted as a name for the bd sample; then s("trommur") plays bd.
+// Coin a sound name (aliasSounds) — `trommur` is minted as a name for the bd sound; then s("trommur") plays bd.
 // → silence
 ohmjs`Merktu „trommur“ sem hljóð „bd“.`
 
