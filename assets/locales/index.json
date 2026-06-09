@@ -2,61 +2,61 @@
   "locales": [
     {
       "code": "am",
-      "path": "/locales/am.json",
+      "path": "/assets/locales/am.json",
       "source": "locale.am.json",
       "status": "machine"
     },
     {
       "code": "chr",
-      "path": "/locales/chr.json",
+      "path": "/assets/locales/chr.json",
       "source": "locale.chr.json",
       "status": "machine"
     },
     {
       "code": "de",
-      "path": "/locales/de.json",
+      "path": "/assets/locales/de.json",
       "source": "locale.de.json",
       "status": "machine"
     },
     {
       "code": "es",
-      "path": "/locales/es.json",
+      "path": "/assets/locales/es.json",
       "source": "locale.es.json",
       "status": "machine"
     },
     {
       "code": "is",
-      "path": "/locales/is.json",
+      "path": "/assets/locales/is.json",
       "source": "locale.is.json",
       "status": "machine"
     },
     {
       "code": "ja",
-      "path": "/locales/ja.json",
+      "path": "/assets/locales/ja.json",
       "source": "locale.ja.json",
       "status": "machine"
     },
     {
       "code": "ko",
-      "path": "/locales/ko.json",
+      "path": "/assets/locales/ko.json",
       "source": "locale.ko.json",
       "status": "machine"
     },
     {
       "code": "pt",
-      "path": "/locales/pt.json",
+      "path": "/assets/locales/pt.json",
       "source": "locale.pt.json",
       "status": "machine"
     },
     {
       "code": "tr",
-      "path": "/locales/tr.json",
+      "path": "/assets/locales/tr.json",
       "source": "locale.tr.json",
       "status": "machine"
     },
     {
       "code": "zh",
-      "path": "/locales/zh.json",
+      "path": "/assets/locales/zh.json",
       "source": "locale.zh.json",
       "status": "machine"
     }
