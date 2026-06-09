@@ -1,4 +1,6 @@
 {
+  "locale": "is",
+  "font": { "family": "FiraGO", "css": "https://cdn.jsdelivr.net/npm/@fontsource/firago/index.css" },
   "functions": {
   "lpf": ["lágtíðnihleypir", "lth"],
   "hpf": ["háttíðnihleypir", "hth"],
