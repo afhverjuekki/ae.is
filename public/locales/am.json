@@ -1,0 +1,560 @@
+{
+  "locale": "am",
+  "font": {
+    "family": "Noto Sans Ethiopic",
+    "css": "https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-ethiopic/index.css"
+  },
+  "functions": {
+    "fast": [
+      "ፈጣን",
+      "ቶሎ"
+    ],
+    "slow": "ዝግ",
+    "hurry": [
+      "አቻኩል",
+      "ቸኩል"
+    ],
+    "rev": [
+      "ግልብጥ",
+      "ተገልብጦ"
+    ],
+    "palindrome": "ወዲያወዲህ",
+    "iter": [
+      "ሽከርክር",
+      "አዙር"
+    ],
+    "every": [
+      "በየ",
+      "ሁልጊዜ"
+    ],
+    "always": "ዘወትር",
+    "never": [
+      "ፈጽሞ",
+      "በፍጹም"
+    ],
+    "sometimes": "አንዳንዴ",
+    "often": [
+      "ብዙጊዜ",
+      "አብዛኛውጊዜ"
+    ],
+    "rarely": [
+      "አልፎአልፎ",
+      "ጥቂትጊዜ"
+    ],
+    "someCycles": "አንዳንድዙር",
+    "degrade": "አቅልል",
+    "gain": "ጥንካሬ",
+    "pan": [
+      "ዝንባሌ",
+      "አቅጣጫ"
+    ],
+    "room": [
+      "ክፍል",
+      "አዳራሽ"
+    ],
+    "size": "መጠን",
+    "roomsize": "የክፍልመጠን",
+    "delay": [
+      "ማስተጋባት",
+      "ዘገየ"
+    ],
+    "echo": "ድግግሞሽ",
+    "distort": [
+      "አዛባ",
+      "አበላሽ"
+    ],
+    "distortion": "መዛባት",
+    "crush": [
+      "ፍጨ",
+      "አደቅቅ"
+    ],
+    "shape": [
+      "ቅርጽ",
+      "ቅርፅ"
+    ],
+    "speed": "ፍጥነት",
+    "velocity": "ኃይል",
+    "cut": [
+      "ቁረጥ",
+      "ቅረጥ"
+    ],
+    "begin": [
+      "ጅምር",
+      "መጀመሪያ"
+    ],
+    "end": [
+      "ፍጻሜ",
+      "መጨረሻ"
+    ],
+    "loop": "ዙር",
+    "note": [
+      "ኖታ",
+      "ድምፀ"
+    ],
+    "sound": [
+      "ድምፅ",
+      "ድምጽ"
+    ],
+    "silence": [
+      "ጸጥታ",
+      "ዝምታ"
+    ],
+    "hush": [
+      "ዝም",
+      "ጸጥ"
+    ],
+    "stack": [
+      "ደራርብ",
+      "አደራርብ"
+    ],
+    "layer": [
+      "ሽፋን",
+      "ደረብ"
+    ],
+    "struct": [
+      "አወቃቀር",
+      "መዋቅር"
+    ],
+    "chop": [
+      "ከትፍ",
+      "ቆራርጥ"
+    ],
+    "slice": "ቁራጭ",
+    "shuffle": [
+      "ቀላቅል",
+      "ደባልቅ"
+    ],
+    "scramble": [
+      "በታትን",
+      "ዘበራርቅ"
+    ],
+    "range": [
+      "ክልል",
+      "መጠነ"
+    ],
+    "add": [
+      "ደምር",
+      "ጨምር"
+    ],
+    "sub": [
+      "ቀንስ",
+      "አጉድል"
+    ],
+    "mul": [
+      "አባዛ",
+      "ብዜት"
+    ],
+    "div": [
+      "አካፍል",
+      "ክፍፍል"
+    ],
+    "round": [
+      "አጠጋ",
+      "ሙሉ"
+    ],
+    "detune": [
+      "አስተካክልለውጥ",
+      "ድምፀለውጥ"
+    ],
+    "vowel": "አናባቢ",
+    "transpose": [
+      "አዛውር",
+      "ዝውውር"
+    ],
+    "scale": [
+      "ስኬል",
+      "ሚዛን"
+    ],
+    "choose": [
+      "ምረጥ",
+      "ምራጭ"
+    ],
+    "pick": "አንሳ",
+    "seq": [
+      "ቅደምተከተል",
+      "ተከታታይ"
+    ],
+    "cat": [
+      "አያይዝ",
+      "አስከታታይ"
+    ],
+    "stretch": [
+      "ዘርጋ",
+      "ለጠጥ"
+    ],
+    "expand": "አስፋ",
+    "contract": [
+      "አጥብብ",
+      "ሰብስብ"
+    ],
+    "shrink": [
+      "አሳንስ",
+      "ኮማትር"
+    ],
+    "grow": [
+      "አሳድግ",
+      "አበጥ"
+    ],
+    "early": [
+      "ቀድም",
+      "ቀደም"
+    ],
+    "late": [
+      "አዘግይ",
+      "ዘግይ"
+    ],
+    "swing": [
+      "ሰቀላ",
+      "ስዊንግ"
+    ],
+    "clip": [
+      "ቆንጥጥ",
+      "ግደብ"
+    ],
+    "legato": "አስተሳስር",
+    "mask": [
+      "ሸፍን",
+      "ጭንብል"
+    ],
+    "filter": [
+      "ማጣሪያ",
+      "አጣራ"
+    ],
+    "cutoff": [
+      "መቁረጫ",
+      "ድንበር"
+    ],
+    "resonance": "ድምፀት",
+    "lpf": [
+      "ዝቅአላፊ",
+      "ዝቅ"
+    ],
+    "hpf": [
+      "ከፍአላፊ",
+      "ከፍ"
+    ],
+    "attack": [
+      "መነሳሳት",
+      "ጅማሮ"
+    ],
+    "release": [
+      "ልቀቅ",
+      "መልቀቅ"
+    ],
+    "sustain": "ዘላቂ",
+    "decay": [
+      "መቀነስ",
+      "ማሽቆልቆል"
+    ],
+    "noise": [
+      "ጫጫታ",
+      "ኡኡታ"
+    ],
+    "vibrato": [
+      "ንዝረት",
+      "ቪብራቶ"
+    ],
+    "tremolo": [
+      "መንቀጥቀጥ",
+      "ትሬሞሎ"
+    ],
+    "phaser": "ፌዘር",
+    "drive": [
+      "ግፊት",
+      "ጉልበት"
+    ],
+    "hard": [
+      "ጠንካራ",
+      "ብርቱ"
+    ],
+    "soft": [
+      "ለስላሳ",
+      "ረጋ"
+    ],
+    "keep": [
+      "ያዝ",
+      "አቆይ"
+    ],
+    "focus": [
+      "አተኩር",
+      "ትኩረት"
+    ],
+    "zoom": [
+      "አጉላ",
+      "አቅርብ"
+    ],
+    "reset": [
+      "ድገም",
+      "እንደገና"
+    ],
+    "restart": [
+      "እንደገናጀምር",
+      "ድጋሚ"
+    ],
+    "compress": [
+      "ጨምቅ",
+      "አሳጥር"
+    ],
+    "orbit": "ምህዋር",
+    "tune": [
+      "አስተካክል",
+      "ቃና"
+    ],
+    "mode": [
+      "ስልት",
+      "ዜማ"
+    ],
+    "warp": [
+      "አጣምም",
+      "ጥምዘዛ"
+    ],
+    "morph": [
+      "ለውጥ",
+      "ቅርጽለውጥ"
+    ],
+    "spread": "በትን",
+    "swingBy": "ሰቀላበ",
+    "euclid": "ኢውክሊድ",
+    "arp": [
+      "አርፔጆ",
+      "ሰበዛ"
+    ],
+    "loopAt": "አዙርበ",
+    "undegrade": [
+      "አትቀንስ",
+      "መልስ"
+    ]
+  },
+  "sounds": {
+    "clap": [
+      "ጭብጨባ",
+      "ማጨብጨብ"
+    ],
+    "cowbell": "የላምደወል",
+    "woodblock": [
+      "የእንጨትብሎክ",
+      "እንጨትብሎክ"
+    ],
+    "clave": "ክላቭ",
+    "conga": "ኮንጋ",
+    "bongo": "ቦንጎ",
+    "tambourine": "ከንፈር",
+    "triangle": "ሶስትማዕዘን",
+    "bell": "ደወል",
+    "belltree": "የደወልዛፍ",
+    "handbells": "የእጅደወል",
+    "sleighbells": [
+      "ጃንጥላደወል",
+      "ደወሎች"
+    ],
+    "gong": "ጎንግ",
+    "cymbal": "ጸናጽል",
+    "fingercymbal": "የጣትጸናጽል",
+    "drum": "ከበሮ",
+    "darbuka": "ደርቡካ",
+    "snare_rim": [
+      "የከበሮጠርዝ",
+      "ጠርዝ"
+    ],
+    "sine": "ሞገድ",
+    "sawtooth": [
+      "መጋዝ",
+      "መጋዝሞገድ"
+    ],
+    "square": [
+      "አራትማዕዘን",
+      "ስኩዌር"
+    ],
+    "piano": "ፒያኖ",
+    "organ": "ኦርጋን",
+    "gm_church_organ": "የቤተክርስቲያንኦርጋን",
+    "gm_violin": "ቫዮሊን",
+    "gm_viola": "ቪዮላ",
+    "gm_cello": "ቼሎ",
+    "gm_trumpet": [
+      "ጥሩምባ",
+      "መለከት"
+    ],
+    "gm_trombone": "ትሮምቦን",
+    "gm_tuba": "ቱባ",
+    "gm_flute": [
+      "ዋሽንት",
+      "ፍሉት"
+    ],
+    "gm_clarinet": "ክላርኔት",
+    "gm_oboe": "ኦቦ",
+    "gm_harmonica": "ሃርሞኒካ",
+    "gm_accordion": "አኮርዲዮን",
+    "gm_acoustic_guitar_nylon": "ጊታር",
+    "gm_acoustic_bass": "ባስ",
+    "gm_harp": [
+      "በገና",
+      "ክራር"
+    ],
+    "gm_fiddle": "ማሲንቆ",
+    "gm_xylophone": "ዢሎፎን",
+    "gm_marimba": "ማሪምባ",
+    "gm_timpani": "ቲምፓኒ",
+    "gm_choir_aahs": "መዘምራን",
+    "gm_whistle": "ፊሽካ",
+    "trainwhistle": "የባቡርፊሽካ",
+    "siren": "ሳይረን",
+    "gm_gunshot": "ተኩስ",
+    "gm_seashore": [
+      "የባህርዳርቻ",
+      "ባህር"
+    ],
+    "gm_bird_tweet": [
+      "የወፍጩኸት",
+      "ወፍ"
+    ],
+    "gm_telephone": "ስልክ",
+    "gm_helicopter": "ሄሊኮፕተር",
+    "gm_music_box": "የሙዚቃሳጥን",
+    "wind": "ነፋስ",
+    "insect": "ነፍሳት",
+    "crow": "ቁራ",
+    "didgeridoo": "ዲጄሪዱ",
+    "anvil": [
+      "መድፊያ",
+      "ስንዳ"
+    ],
+    "vibraphone": "ቫይብራፎን",
+    "glockenspiel": "ግሎከንስፒል",
+    "gm_bagpipe": "ከረጢትዋሽንት",
+    "gm_banjo": "ባንጆ",
+    "gm_sitar": "ሲታር",
+    "gm_kalimba": "ካሊምባ",
+    "gm_ocarina": "ኦካሪና",
+    "gm_recorder": "ሪኮርደር",
+    "gm_saxophone": "ሳክስፎን",
+    "gm_tubular_bells": "የቱቦደወል",
+    "gm_celesta": "ቼለስታ",
+    "gm_harpsichord": "ሃርፕሲኮርድ",
+    "gm_french_horn": "ቀንድ",
+    "gm_brass_section": "የነሐስመሳሪያዎች",
+    "gm_orchestra_hit": "ኦርኬስትራ",
+    "gm_voice_oohs": "ድምፅ"
+  },
+  "colors": {
+    "red": [
+      "ቀይ",
+      "ቀዪ"
+    ],
+    "blue": "ሰማያዊ",
+    "green": [
+      "አረንጓዴ",
+      "አረንጓዳ"
+    ],
+    "yellow": "ቢጫ",
+    "black": "ጥቁር",
+    "white": "ነጭ",
+    "gray": "ግራጫ",
+    "brown": [
+      "ቡናማ",
+      "ቡኒ"
+    ],
+    "orange": [
+      "ብርቱካናማ",
+      "ብርቱካን"
+    ],
+    "pink": [
+      "ሮዝ",
+      "ሐምራዊ"
+    ],
+    "purple": [
+      "ወይንጠጅ",
+      "ወይን ጠጅ"
+    ],
+    "gold": [
+      "ወርቃማ",
+      "ወርቅ"
+    ],
+    "silver": [
+      "ብርማ",
+      "ብር"
+    ],
+    "navy": "ጥቁርሰማያዊ",
+    "lightblue": [
+      "ነጣ ያለሰማያዊ",
+      "ቀላልሰማያዊ"
+    ],
+    "darkgreen": "ጥቁርአረንጓዴ",
+    "darkred": "ጥቁርቀይ",
+    "lightgreen": "ቀላልአረንጓዴ",
+    "olive": "የወይራ"
+  },
+  "notes": {
+    "c": "ዶ",
+    "d": "ሬ",
+    "e": "ሚ",
+    "f": "ፋ",
+    "g": "ሶል",
+    "a": "ላ",
+    "b": "ሲ"
+  },
+  "scales": {
+    "major": [
+      "ሜጀር",
+      "ዋና"
+    ],
+    "minor": "ማይነር",
+    "ionian": "አዮኒያን",
+    "dorian": "ዶሪያን",
+    "phrygian": "ፍሪጂያን",
+    "lydian": "ሊዲያን",
+    "mixolydian": "ሚክሶሊዲያን",
+    "locrian": "ሎክሪያን",
+    "chromatic": [
+      "ክሮማቲክ",
+      "ግማሽድምፅ"
+    ],
+    "whole tone": [
+      "ሙሉድምፅ",
+      "ሆልቶን"
+    ],
+    "diminished": "ዲሚኒሽድ",
+    "augmented": "ኦግመንትድ",
+    "harmonic minor": "ሃርሞኒክማይነር",
+    "melodic minor": "ሜሎዲክማይነር",
+    "harmonic major": "ሃርሞኒክሜጀር",
+    "major pentatonic": "ሜጀርፔንታቶኒክ",
+    "minor pentatonic": "ማይነርፔንታቶኒክ",
+    "major blues": "ሜጀርብሉዝ",
+    "minor blues": "ማይነርብሉዝ",
+    "flamenco": "ፍላሜንኮ",
+    "phrygian dominant": "ፍሪጂያንዶሚናንት",
+    "egyptian": [
+      "ግብፃዊ",
+      "ኢጂብሽያን"
+    ],
+    "persian": [
+      "ፋርሳዊ",
+      "ፐርሺያን"
+    ],
+    "balinese": [
+      "ባሊኛ",
+      "ባሊ"
+    ],
+    "spanish heptatonic": [
+      "ስፓኝ",
+      "ስፓኒሽ"
+    ],
+    "oriental": "ኦሪየንታል",
+    "hungarian minor": "ሃንጋሪያንማይነር",
+    "hungarian major": "ሃንጋሪያንሜጀር",
+    "neopolitan major": "ኒያፖሊታንሜጀር",
+    "bebop": "ቢባፕ",
+    "hirajoshi": "ሂራጆሺ",
+    "iwato": "ኢዋቶ",
+    "kumoijoshi": "ኩሞይጆሺ",
+    "in-sen": "ኢንሰን",
+    "ichikosucho": "ኢቺኮሱቾ",
+    "kafi raga": "ካፊራጋ",
+    "malkos raga": "ማልኮስራጋ",
+    "todi raga": "ቶዲራጋ",
+    "purvi raga": "ፑርቪራጋ",
+    "vietnamese 1": "ቬትናማዊ",
+    "altered": "ኦልተርድ"
+  }
+}

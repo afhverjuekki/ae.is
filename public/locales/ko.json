@@ -1,0 +1,396 @@
+{
+  "locale": "ko",
+  "font": {
+    "family": "Noto Sans KR",
+    "css": "https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-kr/index.css"
+  },
+  "functions": {
+    "fast": "빠르게",
+    "slow": "느리게",
+    "hurry": "서둘러",
+    "rev": [
+      "뒤집기",
+      "역방향"
+    ],
+    "palindrome": "회문",
+    "iter": "반복이동",
+    "every": [
+      "마다",
+      "매번"
+    ],
+    "sometimes": "가끔",
+    "often": "자주",
+    "rarely": "드물게",
+    "always": "항상",
+    "never": "절대",
+    "almostAlways": "거의항상",
+    "almostNever": "거의절대",
+    "someCycles": "일부주기",
+    "degrade": "솎아내기",
+    "random": "무작위",
+    "rand": "난수",
+    "irand": "정수난수",
+    "choose": [
+      "고르기",
+      "선택"
+    ],
+    "shuffle": "섞기",
+    "scramble": "뒤섞기",
+    "seed": "시드",
+    "noise": "노이즈",
+    "perlin": "펄린",
+    "gain": [
+      "게인",
+      "음량"
+    ],
+    "pan": "팬",
+    "room": [
+      "룸",
+      "공간"
+    ],
+    "size": "크기",
+    "roomsize": "룸크기",
+    "delay": "딜레이",
+    "echo": [
+      "에코",
+      "메아리"
+    ],
+    "delaytime": "딜레이타임",
+    "delayfeedback": "딜레이피드백",
+    "distort": [
+      "디스토션",
+      "왜곡"
+    ],
+    "crush": "비트크러시",
+    "chorus": "코러스",
+    "phaser": "페이저",
+    "tremolo": "트레몰로",
+    "vibrato": "비브라토",
+    "crossfade": "크로스페이드",
+    "coarse": "거칠게",
+    "shape": [
+      "셰이프",
+      "파형"
+    ],
+    "filter": "필터",
+    "cutoff": [
+      "컷오프",
+      "차단주파수"
+    ],
+    "lpf": [
+      "로우패스",
+      "저역통과"
+    ],
+    "hpf": [
+      "하이패스",
+      "고역통과"
+    ],
+    "lpq": "로우패스큐",
+    "resonance": [
+      "레조넌스",
+      "공진"
+    ],
+    "bandf": "밴드패스",
+    "attack": "어택",
+    "decay": "디케이",
+    "sustain": "서스테인",
+    "release": "릴리즈",
+    "adsr": [
+      "엔벨로프",
+      "에이디에스알"
+    ],
+    "speed": "속도",
+    "detune": "디튠",
+    "unison": "유니즌",
+    "vowel": "모음",
+    "note": [
+      "음",
+      "음표"
+    ],
+    "sound": "소리",
+    "scale": "음계",
+    "chord": [
+      "화음",
+      "코드"
+    ],
+    "transpose": [
+      "조옮김",
+      "트랜스포즈"
+    ],
+    "struct": "리듬구조",
+    "swing": "스윙",
+    "legato": "레가토",
+    "clip": "클립",
+    "stack": "쌓기",
+    "layer": "레이어",
+    "sequence": "시퀀스",
+    "silence": [
+      "무음",
+      "침묵"
+    ],
+    "hush": "멈춤",
+    "slice": "슬라이스",
+    "chop": [
+      "촙",
+      "자르기"
+    ],
+    "loop": "루프",
+    "begin": "시작",
+    "end": "끝",
+    "add": "더하기",
+    "sub": "빼기",
+    "mul": "곱하기",
+    "div": "나누기",
+    "range": "범위",
+    "round": "반올림",
+    "floor": "내림",
+    "ceil": "올림",
+    "run": "연속수",
+    "early": "당기기",
+    "late": "밀기",
+    "superimpose": "겹치기",
+    "segment": "분할",
+    "zoom": "확대",
+    "velocity": [
+      "벨로시티",
+      "세기"
+    ],
+    "duck": "덕킹",
+    "compress": "컴프레서"
+  },
+  "sounds": {
+    "bd": [
+      "킥",
+      "베이스드럼"
+    ],
+    "sd": "스네어",
+    "snare_hi": "하이스네어",
+    "snare_low": "로우스네어",
+    "snare_modern": "모던스네어",
+    "snare_rim": "림스네어",
+    "hh": "하이햇",
+    "oh": "오픈하이햇",
+    "clap": [
+      "박수",
+      "클랩"
+    ],
+    "cowbell": "카우벨",
+    "cr": "크래시",
+    "rd": "라이드",
+    "rim": "림샷",
+    "tom_mallet": "맬릿톰",
+    "ht": "하이톰",
+    "mt": "미드톰",
+    "lt": "로우톰",
+    "woodblock": "우드블록",
+    "clave": "클라베",
+    "conga": "콩가",
+    "bongo": "봉고",
+    "cabasa": "카바사",
+    "cajon": "카혼",
+    "darbuka": "다르부카",
+    "tambourine": "탬버린",
+    "shaker_large": "큰셰이커",
+    "shaker_small": "작은셰이커",
+    "guiro": "귀로",
+    "agogo": "아고고",
+    "triangle": "트라이앵글",
+    "tri": "삼각파",
+    "gong": "징",
+    "anvil": "모루",
+    "siren": "사이렌",
+    "whistle": "호루라기",
+    "trainwhistle": "기차기적",
+    "sleighbells": "썰매방울",
+    "handbells": "핸드벨",
+    "glockenspiel": "글로켄슈필",
+    "marimba": "마림바",
+    "vibraphone": "비브라폰",
+    "kalimba": "칼림바",
+    "timpani": "팀파니",
+    "harp": "하프",
+    "folkharp": "포크하프",
+    "harmonica": "하모니카",
+    "ocarina": "오카리나",
+    "didgeridoo": "디저리두",
+    "piano": "피아노",
+    "sax": "색소폰",
+    "organ_full": "풀오르간",
+    "sine": "사인파",
+    "saw": "톱니파",
+    "square": "사각파",
+    "fmpiano": "에프엠피아노",
+    "gong2": "징2",
+    "gm_violin": "바이올린",
+    "gm_viola": "비올라",
+    "gm_cello": "첼로",
+    "gm_contrabass": "콘트라베이스",
+    "gm_flute": "플루트",
+    "gm_piccolo": "피콜로",
+    "gm_oboe": "오보에",
+    "gm_clarinet": "클라리넷",
+    "gm_bassoon": "바순",
+    "gm_trumpet": "트럼펫",
+    "gm_trombone": "트롬본",
+    "gm_tuba": "튜바",
+    "gm_french_horn": "프렌치호른",
+    "gm_accordion": "아코디언",
+    "gm_banjo": "밴조",
+    "gm_sitar": "시타르",
+    "gm_koto": "고토",
+    "gm_shamisen": "샤미센",
+    "gm_xylophone": "실로폰",
+    "gm_celesta": "첼레스타",
+    "gm_harpsichord": "하프시코드",
+    "gm_whistle": "휘파람",
+    "gm_applause": "박수갈채",
+    "gm_gunshot": "총소리",
+    "gm_seashore": "바닷가",
+    "gm_helicopter": "헬리콥터",
+    "gm_telephone": "전화",
+    "gm_bagpipe": "백파이프",
+    "gm_taiko_drum": "다이코",
+    "gm_steel_drums": "스틸드럼",
+    "gm_tubular_bells": "튜블러벨",
+    "gm_music_box": "오르골",
+    "gm_pan_flute": "팬플루트",
+    "gm_shakuhachi": "샤쿠하치",
+    "gm_recorder": "리코더",
+    "gm_orchestral_harp": "오케스트라하프"
+  },
+  "colors": {
+    "red": [
+      "빨강",
+      "빨간색"
+    ],
+    "blue": [
+      "파랑",
+      "파란색"
+    ],
+    "green": [
+      "초록",
+      "초록색"
+    ],
+    "yellow": [
+      "노랑",
+      "노란색"
+    ],
+    "black": [
+      "검정",
+      "검은색"
+    ],
+    "white": [
+      "하양",
+      "흰색"
+    ],
+    "orange": [
+      "주황",
+      "오렌지"
+    ],
+    "purple": [
+      "보라",
+      "자주"
+    ],
+    "pink": [
+      "분홍",
+      "핑크"
+    ],
+    "brown": [
+      "갈색",
+      "밤색"
+    ],
+    "gray": "회색",
+    "cyan": [
+      "청록",
+      "시안"
+    ],
+    "navy": "남색",
+    "gold": "금색",
+    "silver": "은색",
+    "violet": "바이올렛",
+    "magenta": [
+      "자홍",
+      "마젠타"
+    ],
+    "crimson": "진홍",
+    "maroon": "적갈색",
+    "olive": "올리브색",
+    "beige": "베이지",
+    "khaki": "카키",
+    "lime": [
+      "연두",
+      "라임"
+    ],
+    "turquoise": "터콰이즈",
+    "ivory": [
+      "아이보리",
+      "상아색"
+    ],
+    "coral": [
+      "산호색",
+      "코랄"
+    ],
+    "salmon": "연어색",
+    "tan": "황갈색",
+    "plum": "자두색"
+  },
+  "notes": {
+    "c": "다",
+    "d": "라",
+    "e": "마",
+    "f": "바",
+    "g": "사",
+    "a": "가",
+    "b": "나"
+  },
+  "scales": {
+    "major": [
+      "장조",
+      "메이저"
+    ],
+    "minor": [
+      "단조",
+      "마이너"
+    ],
+    "dorian": "도리안",
+    "phrygian": "프리지안",
+    "lydian": "리디안",
+    "mixolydian": "믹솔리디안",
+    "locrian": "로크리안",
+    "chromatic": "반음계",
+    "whole tone": "온음음계",
+    "major pentatonic": "장5음음계",
+    "minor pentatonic": "단5음음계",
+    "harmonic minor": "화성단음계",
+    "melodic minor": [
+      "가락단음계",
+      "선율단음계"
+    ],
+    "diminished": "감음계",
+    "augmented": "증음계",
+    "blues": "블루스음계",
+    "major blues": "장블루스음계",
+    "minor blues": "단블루스음계",
+    "bebop": "비밥음계",
+    "flamenco": "플라멩코음계",
+    "phrygian dominant": "프리지안도미넌트",
+    "hirajoshi": "히라조시",
+    "iwato": "이와토",
+    "kumoijoshi": "구모이조시",
+    "in-sen": "인센",
+    "egyptian": "이집트음계",
+    "persian": "페르시아음계",
+    "oriental": "오리엔탈음계",
+    "balinese": "발리음계",
+    "pelog": "펠로그",
+    "kafi raga": "카피라가",
+    "malkos raga": "말코스라가",
+    "purvi raga": "푸르비라가",
+    "todi raga": "토디라가",
+    "hungarian minor": "헝가리단음계",
+    "hungarian major": "헝가리장음계",
+    "neopolitan major": "나폴리장음계",
+    "double harmonic major": "이중화성장음계",
+    "spanish heptatonic": "스페인7음음계"
+  }
+}

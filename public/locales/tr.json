@@ -1,0 +1,955 @@
+{
+  "locale": "tr",
+  "functions": {
+    "fast": [
+      "hızlı",
+      "çabuk",
+      "hizli"
+    ],
+    "slow": [
+      "yavaş",
+      "yavas"
+    ],
+    "hurry": "acele",
+    "every": "her",
+    "firstOf": [
+      "ilkinde",
+      "ilki"
+    ],
+    "lastOf": [
+      "sonunda",
+      "sonuncusu"
+    ],
+    "rev": [
+      "ters",
+      "tersle"
+    ],
+    "palindrome": "palindrom",
+    "shuffle": [
+      "karıştır",
+      "karistir"
+    ],
+    "iter": [
+      "yinele",
+      "dön"
+    ],
+    "sometimes": [
+      "bazen",
+      "arada"
+    ],
+    "sometimesBy": "bazenOranla",
+    "often": [
+      "sık",
+      "sıklıkla",
+      "sik",
+      "siklikla"
+    ],
+    "rarely": [
+      "nadiren",
+      "seyrek"
+    ],
+    "always": [
+      "hep",
+      "daima",
+      "herZaman"
+    ],
+    "never": [
+      "asla",
+      "hiç",
+      "hic"
+    ],
+    "almostAlways": [
+      "neredeyseHep",
+      "neredeyseDaima"
+    ],
+    "almostNever": [
+      "neredeyseHiç",
+      "neredeyseHic",
+      "neredeyseAsla"
+    ],
+    "someCycles": [
+      "bazıDöngüler",
+      "baziDonguler"
+    ],
+    "degrade": [
+      "seyrelt",
+      "azalt"
+    ],
+    "degradeBy": "seyreltOranla",
+    "undegrade": "geriSeyrelt",
+    "choose": "seç",
+    "pick": "ayıkla",
+    "run": [
+      "koş",
+      "sırala",
+      "kos"
+    ],
+    "range": [
+      "aralık",
+      "aralik"
+    ],
+    "segment": [
+      "böl",
+      "dilimle",
+      "bol"
+    ],
+    "struct": [
+      "yapı",
+      "yapi"
+    ],
+    "mask": [
+      "maske",
+      "maskele"
+    ],
+    "layer": [
+      "katman",
+      "katmanla"
+    ],
+    "stack": [
+      "yığ",
+      "yığın",
+      "yigin"
+    ],
+    "superimpose": [
+      "üstBindir",
+      "ustBindir"
+    ],
+    "swing": [
+      "salınım",
+      "salinim"
+    ],
+    "add": [
+      "ekle",
+      "topla"
+    ],
+    "sub": [
+      "çıkar",
+      "cikar"
+    ],
+    "mul": [
+      "çarp",
+      "carp"
+    ],
+    "round": "yuvarla",
+    "floor": [
+      "taban",
+      "aşağıYuvarla"
+    ],
+    "ceil": [
+      "tavan",
+      "yukarıYuvarla",
+      "yukariYuvarla"
+    ],
+    "fold": "katla",
+    "gain": [
+      "kazanç",
+      "seviye",
+      "kazanc"
+    ],
+    "pan": [
+      "kaydırma",
+      "denge",
+      "kaydir"
+    ],
+    "speed": [
+      "hız",
+      "hiz"
+    ],
+    "room": "oda",
+    "size": "boyut",
+    "roomsize": [
+      "odaBoyutu",
+      "odaBoyut"
+    ],
+    "delay": "gecikme",
+    "delaytime": [
+      "gecikmeSüresi",
+      "gecikmeSuresi"
+    ],
+    "delayfeedback": "gecikmeGeriBesleme",
+    "echo": [
+      "eko",
+      "yankı",
+      "yanki"
+    ],
+    "distort": [
+      "boz",
+      "bozulma"
+    ],
+    "distortion": "distorsiyon",
+    "crush": [
+      "ezme",
+      "ez"
+    ],
+    "shape": [
+      "biçim",
+      "biçimle",
+      "bicim"
+    ],
+    "drive": [
+      "sürüş",
+      "sur"
+    ],
+    "noise": [
+      "gürültü",
+      "gurultu"
+    ],
+    "vowel": [
+      "ünlü",
+      "sesli",
+      "unlu"
+    ],
+    "compress": [
+      "sıkıştır",
+      "sikistir"
+    ],
+    "compressor": [
+      "kompresör",
+      "kompresor"
+    ],
+    "note": "nota",
+    "chord": "akor",
+    "scale": [
+      "gam",
+      "dizi"
+    ],
+    "transpose": [
+      "aktar",
+      "transpoze"
+    ],
+    "detune": [
+      "akortBoz",
+      "akortKaydir"
+    ],
+    "tune": "akort",
+    "loop": [
+      "döngü",
+      "dongu"
+    ],
+    "loopAt": [
+      "döngüde",
+      "dongude"
+    ],
+    "begin": [
+      "başla",
+      "basla",
+      "başlangıç"
+    ],
+    "end": [
+      "bitiş",
+      "son",
+      "bitis"
+    ],
+    "slice": "dilim",
+    "sound": "ses",
+    "silence": [
+      "sessizlik",
+      "sus"
+    ],
+    "velocity": [
+      "şiddet",
+      "vuruşGücü"
+    ],
+    "acceleration": "ivme",
+    "gravity": [
+      "yerçekimi",
+      "yercekimi"
+    ],
+    "rotation": [
+      "dönüş",
+      "donus"
+    ],
+    "orientation": [
+      "yönelim",
+      "yön",
+      "yonelim"
+    ],
+    "seed": "tohum",
+    "reset": [
+      "sıfırla",
+      "sifirla"
+    ],
+    "restart": [
+      "yenidenBaşlat",
+      "yenidenBaslat"
+    ],
+    "early": "erken",
+    "late": [
+      "geç",
+      "gec"
+    ],
+    "density": [
+      "yoğunluk",
+      "yogunluk"
+    ],
+    "sparsity": "seyreklik",
+    "zoom": [
+      "yakınlaş",
+      "yakinlas"
+    ],
+    "focus": [
+      "odakla",
+      "odak"
+    ],
+    "invert": [
+      "tersine",
+      "çevir",
+      "cevir"
+    ],
+    "repeatCycles": "döngüTekrarla",
+    "replicate": [
+      "çoğalt",
+      "cogalt"
+    ],
+    "extend": [
+      "uzat",
+      "genişlet",
+      "genislet"
+    ],
+    "contract": [
+      "daralt",
+      "kısalt",
+      "kisalt"
+    ],
+    "grow": [
+      "büyüt",
+      "buyut"
+    ],
+    "shrink": [
+      "küçült",
+      "kucult"
+    ],
+    "spread": [
+      "yay",
+      "yayıl",
+      "yayil"
+    ],
+    "all": [
+      "hepsi",
+      "tümü",
+      "tumu"
+    ],
+    "keep": [
+      "tut",
+      "koru"
+    ],
+    "take": "al",
+    "warp": [
+      "büküm",
+      "çarpıt",
+      "carpit"
+    ]
+  },
+  "sounds": {
+    "bd": [
+      "davul",
+      "basdavul"
+    ],
+    "bassdrum1": [
+      "davul1",
+      "basdavul1"
+    ],
+    "bassdrum2": [
+      "davul2",
+      "basdavul2"
+    ],
+    "snare_hi": [
+      "trampetTiz",
+      "trampetince"
+    ],
+    "snare_low": [
+      "trampetPes",
+      "trampetkalin"
+    ],
+    "snare_modern": "trampetModern",
+    "snare_rim": [
+      "trampetKenar",
+      "trampetrim"
+    ],
+    "sd": "trampet",
+    "clap": [
+      "alkis",
+      "alkış"
+    ],
+    "cowbell": [
+      "inekcani",
+      "inekçanı",
+      "kovbel"
+    ],
+    "clash": [
+      "zil",
+      "carpmazili"
+    ],
+    "clash2": "zil2",
+    "clave": [
+      "ritimcubugu",
+      "ritimçubuğu",
+      "klaves"
+    ],
+    "hihat": "incezil",
+    "oh": "acikHihat",
+    "tambourine": "tef",
+    "tambourine2": "tef2",
+    "framedrum": "bendir",
+    "woodblock": [
+      "tahtablok",
+      "ahsapblok"
+    ],
+    "brakedrum": [
+      "frenkampanasi",
+      "frenKampanası"
+    ],
+    "anvil": "ors",
+    "crow": "karga",
+    "insect": [
+      "bocek",
+      "böcek"
+    ],
+    "wind": [
+      "ruzgar",
+      "rüzgar"
+    ],
+    "space": "uzay",
+    "east": [
+      "dogu",
+      "doğu"
+    ],
+    "misc": [
+      "cesitli",
+      "çeşitli"
+    ],
+    "num": [
+      "sayi",
+      "sayı"
+    ],
+    "numbers": [
+      "sayilar",
+      "sayılar"
+    ],
+    "one": "bir",
+    "user": [
+      "kullanici",
+      "kullanıcı"
+    ],
+    "sine": [
+      "sinus",
+      "sinüs"
+    ],
+    "sawtooth": [
+      "testeredisi",
+      "testeredişi",
+      "testere"
+    ],
+    "square": "kare",
+    "triangle": [
+      "ucgen",
+      "üçgen"
+    ],
+    "triangles": [
+      "ucgenler",
+      "üçgenler"
+    ],
+    "z_noise": [
+      "z_gurultu",
+      "z_gürültü"
+    ],
+    "z_sine": "z_sinus",
+    "z_sawtooth": "z_testere",
+    "z_square": "z_kare",
+    "z_triangle": "z_ucgen",
+    "piano": "piyano",
+    "piano1": "piyano1",
+    "harp": "arp",
+    "folkharp": [
+      "halkarpı",
+      "halkArpi"
+    ],
+    "harmonica": [
+      "mizika",
+      "mızıka",
+      "armonika"
+    ],
+    "harmonica_soft": [
+      "mizikaYumusak",
+      "mızıkaYumuşak"
+    ],
+    "harmonica_vib": "mizikaVibrato",
+    "organ_4inch": "org4inc",
+    "organ_8inch": "org8inc",
+    "organ_full": [
+      "orgTam",
+      "tamOrg"
+    ],
+    "pipeorgan_loud": [
+      "boruluOrgYuksek",
+      "boruluorggur"
+    ],
+    "pipeorgan_quiet": "boruluOrgSessiz",
+    "recorder_soprano_sus": "blokflutSopranoSus",
+    "recorder_alto_sus": "blokflutAltoSus",
+    "recorder_tenor_sus": "blokflutTenorSus",
+    "recorder_bass_sus": "blokflutBasSus",
+    "timpani_roll": [
+      "timpaniTremolo",
+      "timpaniyuvarlama"
+    ],
+    "tubularbells": [
+      "boruluCanlar",
+      "boruluçanlar"
+    ],
+    "tubularbells2": "boruluCanlar2",
+    "handbells": [
+      "elCanlari",
+      "elçanları"
+    ],
+    "handchimes": "elcinginraklari",
+    "belltree": [
+      "canagaci",
+      "çanağacı"
+    ],
+    "sleighbells": [
+      "kizakcanlari",
+      "kızakçanları"
+    ],
+    "fingercymbal": "parmakZili",
+    "sus_cymbal": [
+      "asiliZil",
+      "asılıZil"
+    ],
+    "sus_cymbal2": "asiliZil2",
+    "glockenspiel": "celesta",
+    "wineglass": [
+      "sarapKadehi",
+      "şarapKadehi"
+    ],
+    "wineglass_slow": "sarapKadehiYavas",
+    "trainwhistle": [
+      "trenDudugu",
+      "trenDüdüğü"
+    ],
+    "ballwhistle": [
+      "toplDuduk",
+      "topluDuduk"
+    ],
+    "ratchet": [
+      "kalpazan",
+      "cikrik",
+      "çıkrık"
+    ],
+    "sax": "saksofon",
+    "sax_stacc": "saksofonStakato",
+    "sax_vib": "saksofonVibrato",
+    "vibraphone": "vibrafon",
+    "vibraphone_soft": "vibrafonYumusak",
+    "vibraphone_bowed": [
+      "vibrafonYayli",
+      "vibrafonYaylı"
+    ],
+    "fmpiano": "fmPiyano",
+    "clavisynth": "klaviSentez",
+    "gm_piano": "gm_piyano",
+    "gm_accordion": "gm_akordeon",
+    "gm_acoustic_bass": "gm_akustikBas",
+    "gm_acoustic_guitar_nylon": "gm_akustikGitarNaylon",
+    "gm_acoustic_guitar_steel": "gm_akustikGitarCelik",
+    "gm_cello": "gm_viyolonsel",
+    "gm_violin": "gm_keman",
+    "gm_viola": "gm_viyola",
+    "gm_contrabass": "gm_kontrbas",
+    "gm_flute": [
+      "gm_flut",
+      "gm_flüt"
+    ],
+    "gm_piccolo": "gm_pikolo",
+    "gm_oboe": "gm_obua",
+    "gm_clarinet": "gm_klarnet",
+    "gm_bassoon": "gm_fagot",
+    "gm_trumpet": "gm_trompet",
+    "gm_trombone": "gm_trombon",
+    "gm_french_horn": "gm_korno",
+    "gm_english_horn": "gm_ingilizKornosu",
+    "gm_harp": "gm_arp",
+    "gm_orchestral_harp": [
+      "gm_orkestraArpi",
+      "gm_orkestraArpı"
+    ],
+    "gm_harpsichord": "gm_klavsen",
+    "gm_church_organ": "gm_kiliseOrgu",
+    "gm_pan_flute": [
+      "gm_panflut",
+      "gm_panFlüt"
+    ],
+    "gm_whistle": [
+      "gm_islik",
+      "gm_ıslık"
+    ],
+    "gm_banjo": "gm_banco",
+    "gm_bagpipe": [
+      "gm_gayda",
+      "gm_tulum"
+    ],
+    "gm_steel_drums": [
+      "gm_celikDavullar",
+      "gm_çelikDavullar"
+    ],
+    "gm_taiko_drum": "gm_taikoDavulu",
+    "gm_orchestra_hit": [
+      "gm_orkestraVurusu",
+      "gm_orkestraVuruşu"
+    ],
+    "gm_applause": [
+      "gm_alkis",
+      "gm_alkış"
+    ],
+    "gm_gunshot": "gm_silahSesi",
+    "gm_helicopter": "gm_helikopter",
+    "gm_telephone": "gm_telefon",
+    "gm_seashore": [
+      "gm_denizKiyisi",
+      "gm_denizKıyısı"
+    ],
+    "gm_bird_tweet": [
+      "gm_kusCivilti",
+      "gm_kuşCıvıltısı"
+    ],
+    "gm_choir_aahs": "gm_koroAah",
+    "gm_voice_oohs": [
+      "gm_sesOoh",
+      "gm_vokalOoh"
+    ],
+    "gm_music_box": [
+      "gm_muzikKutusu",
+      "gm_müzikKutusu"
+    ],
+    "gm_recorder": [
+      "gm_blokflut",
+      "gm_blokFlüt"
+    ],
+    "gm_reverse_cymbal": "gm_tersZil",
+    "gm_synth_drum": "gm_sentezDavul",
+    "gm_tinkle_bell": [
+      "gm_cingirakCan",
+      "gm_çıngırakÇan"
+    ],
+    "gm_woodblock": "gm_tahtablok",
+    "gm_string_ensemble_1": [
+      "gm_yayliToplulugu1",
+      "gm_yaylıTopluluğu1"
+    ],
+    "gm_synth_strings_1": [
+      "gm_sentezYaylilar1",
+      "gm_sentezYaylılar1"
+    ],
+    "gm_tremolo_strings": "gm_tremoloYaylilar",
+    "gm_pizzicato_strings": "gm_pizikatoYaylilar",
+    "gm_brass_section": [
+      "gm_nefesliBolumu",
+      "gm_üflemeliBölümü"
+    ],
+    "gm_lead_1_square": "gm_lead1Kare",
+    "gm_lead_2_sawtooth": "gm_lead2Testere",
+    "gm_pad_warm": [
+      "gm_padSicak",
+      "gm_padSıcak"
+    ],
+    "gm_pad_choir": "gm_padKoro",
+    "gm_synth_choir": "gm_sentezKoro",
+    "gm_fx_rain": [
+      "gm_fxYagmur",
+      "gm_fxYağmur"
+    ],
+    "gm_fx_crystal": "gm_fxKristal",
+    "gm_distortion_guitar": [
+      "gm_distortionGitar",
+      "gm_bozulmaGitar"
+    ],
+    "gm_electric_guitar_clean": "gm_elektroGitarTemiz",
+    "gm_electric_bass_finger": "gm_elektroBasParmak",
+    "gm_fretless_bass": "gm_perdeSizBas",
+    "gm_slap_bass_1": "gm_slapBas1",
+    "gm_synth_bass_1": "gm_sentezBas1",
+    "gm_synth_brass_1": "gm_sentezNefesli1",
+    "gm_celesta": "gm_selesta",
+    "gm_xylophone": "gm_ksilofon",
+    "gm_vibraphone": "gm_vibrafon",
+    "gm_tubular_bells": [
+      "gm_boruluCanlar",
+      "gm_boruluÇanlar"
+    ],
+    "gm_harmonica": [
+      "gm_mizika",
+      "gm_mızıka"
+    ]
+  },
+  "colors": {
+    "red": [
+      "kirmizi",
+      "kırmızı",
+      "al"
+    ],
+    "blue": "mavi",
+    "green": [
+      "yesil",
+      "yeşil"
+    ],
+    "yellow": [
+      "sari",
+      "sarı"
+    ],
+    "orange": "turuncu",
+    "purple": "mor",
+    "pink": "pembe",
+    "brown": [
+      "kahverengi",
+      "kahve"
+    ],
+    "black": [
+      "siyah",
+      "kara"
+    ],
+    "white": [
+      "beyaz",
+      "ak"
+    ],
+    "gray": "kul",
+    "grey": "gri",
+    "gold": [
+      "altin",
+      "altın",
+      "altinrengi"
+    ],
+    "silver": [
+      "gumus",
+      "gümüş",
+      "gumusrengi"
+    ],
+    "navy": "lacivert",
+    "teal": [
+      "camgobegi",
+      "camgöbeği",
+      "yesilmavi"
+    ],
+    "lime": [
+      "misket",
+      "fistikyesili",
+      "fıstıkyeşili"
+    ],
+    "olive": [
+      "zeytin",
+      "zeytinyesili",
+      "zeytinyeşili"
+    ],
+    "maroon": "bordo",
+    "turquoise": "turkuaz",
+    "crimson": [
+      "kizil",
+      "kızıl"
+    ],
+    "beige": "bej",
+    "ivory": [
+      "fildisi",
+      "fildişi"
+    ],
+    "khaki": "haki",
+    "lavender": "lavanta",
+    "plum": "erik",
+    "orchid": "orkide",
+    "tomato": "domates",
+    "fuchsia": [
+      "fusya",
+      "füsya"
+    ],
+    "salmon": "somon",
+    "coral": "mercan",
+    "violet": [
+      "menekse",
+      "menekşe"
+    ],
+    "wheat": [
+      "bugday",
+      "buğday"
+    ],
+    "snow": "kar",
+    "sienna": [
+      "kiremit",
+      "kiremitrengi"
+    ],
+    "tan": "taba"
+  },
+  "notes": {
+    "c": "do",
+    "d": "re",
+    "e": "mi",
+    "f": "fa",
+    "g": "sol",
+    "a": "la",
+    "b": "si"
+  },
+  "scales": {
+    "major": [
+      "majör",
+      "büyük"
+    ],
+    "minor": [
+      "minör",
+      "küçük"
+    ],
+    "augmented": [
+      "artık",
+      "artırılmış",
+      "çoğaltılmış"
+    ],
+    "diminished": [
+      "eksik",
+      "azaltılmış",
+      "eksiltilmiş"
+    ],
+    "whole tone": [
+      "tamton",
+      "tamSes"
+    ],
+    "chromatic": "kromatik",
+    "dorian": [
+      "doryen",
+      "dor"
+    ],
+    "phrygian": [
+      "frijyen",
+      "frigyen",
+      "frig"
+    ],
+    "lydian": [
+      "lidyen",
+      "lid"
+    ],
+    "mixolydian": "miksolidyen",
+    "locrian": [
+      "lokriyen",
+      "lokrian"
+    ],
+    "ionian pentatonic": [
+      "iyonyenPentatonik",
+      "ionyenPentatonik"
+    ],
+    "major pentatonic": [
+      "majörPentatonik",
+      "büyükPentatonik"
+    ],
+    "minor pentatonic": [
+      "minörPentatonik",
+      "küçükPentatonik"
+    ],
+    "whole tone pentatonic": "tamtonPentatonik",
+    "harmonic minor": [
+      "armonikMinör",
+      "armonikKüçük"
+    ],
+    "melodic minor": [
+      "melodikMinör",
+      "melodikKüçük"
+    ],
+    "harmonic major": [
+      "armonikMajör",
+      "armonikBüyük"
+    ],
+    "major blues": [
+      "majörBlues",
+      "büyükBlues"
+    ],
+    "minor blues": [
+      "minörBlues",
+      "küçükBlues"
+    ],
+    "flamenco": [
+      "flamenko",
+      "ispanyolGam",
+      "frijyenDominant"
+    ],
+    "phrygian dominant": "frijyenMajör",
+    "persian": [
+      "fars",
+      "iran",
+      "farsGam"
+    ],
+    "egyptian": [
+      "mısır",
+      "misir"
+    ],
+    "spanish heptatonic": [
+      "ispanyolHeptatonik",
+      "ispanyolYedili"
+    ],
+    "hungarian major": [
+      "macarMajör",
+      "macarBüyük"
+    ],
+    "hungarian minor": [
+      "macarMinör",
+      "macarKüçük"
+    ],
+    "balinese": [
+      "bali",
+      "baliGam"
+    ],
+    "oriental": [
+      "doğu",
+      "şark",
+      "sark"
+    ],
+    "neopolitan major": [
+      "napolitenMajör",
+      "napoliMajör",
+      "napolitenBüyük"
+    ],
+    "neopolitan major pentatonic": [
+      "napolitenMajörPentatonik",
+      "napoliMajörPentatonik"
+    ],
+    "prometheus neopolitan": [
+      "prometheusNapoliten",
+      "prometheusNapoli"
+    ],
+    "enigmatic": [
+      "esrarengiz",
+      "enigmatik"
+    ],
+    "mystery #1": [
+      "gizem1",
+      "esrar1"
+    ],
+    "vietnamese 1": [
+      "vietnam1",
+      "vietnamca1"
+    ],
+    "double harmonic major": [
+      "çiftArmonikMajör",
+      "ciftArmonikMajör"
+    ],
+    "double harmonic lydian": [
+      "çiftArmonikLidyen",
+      "ciftArmonikLidyen"
+    ],
+    "leading whole tone": [
+      "yedenTamton",
+      "çıkıcıTamton"
+    ],
+    "six tone symmetric": [
+      "altıSesSimetrik",
+      "altiSesSimetrik"
+    ],
+    "composite blues": [
+      "bileşikBlues",
+      "bilesikBlues"
+    ],
+    "half-whole diminished": [
+      "yarımTamEksik",
+      "yarimTamEksik"
+    ],
+    "minor hexatonic": [
+      "minörHeksatonik",
+      "küçükHeksatonik",
+      "minörAltılı"
+    ],
+    "minor six pentatonic": "minörAltılıPentatonik"
+  }
+}

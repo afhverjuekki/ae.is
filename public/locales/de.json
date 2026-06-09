@@ -1,0 +1,837 @@
+{
+  "locale": "de",
+  "functions": {
+    "fast": "schnell",
+    "slow": "langsam",
+    "hurry": [
+      "hetzen",
+      "beeilen"
+    ],
+    "every": [
+      "jede",
+      "jedes"
+    ],
+    "always": "immer",
+    "almostAlways": "fastImmer",
+    "never": [
+      "nie",
+      "niemals"
+    ],
+    "almostNever": [
+      "fastNie",
+      "fastNiemals"
+    ],
+    "often": [
+      "oft",
+      "häufig"
+    ],
+    "rarely": "selten",
+    "sometimes": [
+      "manchmal",
+      "zuweilen"
+    ],
+    "someCycles": "mancheZyklen",
+    "sometimesBy": "manchmalMit",
+    "add": [
+      "addiere",
+      "plus"
+    ],
+    "sub": [
+      "subtrahiere",
+      "minus"
+    ],
+    "mul": [
+      "multipliziere",
+      "mal"
+    ],
+    "div": [
+      "dividiere",
+      "geteilt"
+    ],
+    "range": [
+      "bereich",
+      "spanne"
+    ],
+    "rev": [
+      "umkehren",
+      "rückwärts"
+    ],
+    "palindrome": "palindrom",
+    "iter": "iterieren",
+    "shuffle": [
+      "mischen",
+      "durchmischen"
+    ],
+    "scramble": [
+      "verwürfeln",
+      "durcheinander"
+    ],
+    "degrade": [
+      "abbauen",
+      "verschlechtern"
+    ],
+    "undegrade": "aufbauen",
+    "silence": [
+      "stille",
+      "schweigen"
+    ],
+    "hush": [
+      "leise",
+      "still",
+      "verstumme"
+    ],
+    "gain": [
+      "lautstärke",
+      "pegel",
+      "verstärkung"
+    ],
+    "pan": [
+      "panorama",
+      "balance"
+    ],
+    "room": [
+      "raum",
+      "hall"
+    ],
+    "roomsize": [
+      "raumgröße",
+      "hallgröße"
+    ],
+    "size": "größe",
+    "delay": [
+      "verzögerung",
+      "echo"
+    ],
+    "delaytime": [
+      "verzögerungszeit",
+      "echozeit"
+    ],
+    "delayfeedback": [
+      "verzögerungsfeedback",
+      "echofeedback"
+    ],
+    "distort": [
+      "verzerren",
+      "verzerrung"
+    ],
+    "crush": [
+      "zerquetschen",
+      "bitcrush"
+    ],
+    "coarse": "grob",
+    "shape": [
+      "form",
+      "kurve"
+    ],
+    "vowel": "vokal",
+    "noise": [
+      "rauschen",
+      "geräusch"
+    ],
+    "speed": [
+      "geschwindigkeit",
+      "tempo"
+    ],
+    "cutoff": [
+      "grenzfrequenz",
+      "eckfrequenz"
+    ],
+    "lpf": [
+      "tiefpass",
+      "tp"
+    ],
+    "hpf": [
+      "hochpass",
+      "hp"
+    ],
+    "bpf": [
+      "bandpass",
+      "bp"
+    ],
+    "lpq": "tiefpassresonanz",
+    "resonance": "resonanz",
+    "hcutoff": "hochpassgrenzfrequenz",
+    "attack": "anstieg",
+    "decay": [
+      "abfall",
+      "abklingen"
+    ],
+    "sustain": [
+      "halten",
+      "haltepegel"
+    ],
+    "release": [
+      "ausklingen",
+      "abklingzeit"
+    ],
+    "envfollow": "hüllkurvenfolger",
+    "detune": [
+      "verstimmen",
+      "verstimmung"
+    ],
+    "tune": [
+      "stimmen",
+      "stimmung"
+    ],
+    "transpose": "transponieren",
+    "sound": [
+      "klang",
+      "ton"
+    ],
+    "scale": [
+      "tonleiter",
+      "skala"
+    ],
+    "chord": "akkord",
+    "voicing": [
+      "lage",
+      "akkordlage"
+    ],
+    "invert": "invertieren",
+    "octaves": "oktaven",
+    "layer": [
+      "schicht",
+      "ebene"
+    ],
+    "stack": [
+      "stapel",
+      "übereinander"
+    ],
+    "cat": [
+      "aneinander",
+      "nacheinander"
+    ],
+    "seq": [
+      "sequenz",
+      "reihe"
+    ],
+    "run": "lauf",
+    "struct": [
+      "struktur",
+      "rhythmus"
+    ],
+    "mask": [
+      "maske",
+      "maskieren"
+    ],
+    "chop": [
+      "zerhacken",
+      "hacken"
+    ],
+    "slice": [
+      "scheibe",
+      "schneiden"
+    ],
+    "loop": "schleife",
+    "begin": [
+      "anfang",
+      "beginn"
+    ],
+    "end": "ende",
+    "velocity": [
+      "anschlag",
+      "anschlagstärke"
+    ],
+    "drive": [
+      "übersteuern",
+      "übersteuerung"
+    ],
+    "warp": "krümmen",
+    "morph": "morphen",
+    "crossfade": [
+      "überblenden",
+      "überblendung"
+    ],
+    "compress": [
+      "komprimieren",
+      "kompression"
+    ],
+    "compressor": "kompressor",
+    "duck": [
+      "ducken",
+      "absenken"
+    ],
+    "freq": "frequenz",
+    "choose": [
+      "wähle",
+      "auswählen"
+    ],
+    "pick": "greifen",
+    "weave": [
+      "verweben",
+      "weben"
+    ],
+    "spread": [
+      "streuen",
+      "verteilen"
+    ],
+    "within": "innerhalb",
+    "inside": [
+      "innen",
+      "drinnen"
+    ],
+    "outside": [
+      "außen",
+      "draußen"
+    ],
+    "early": [
+      "früh",
+      "früher"
+    ],
+    "late": [
+      "spät",
+      "später"
+    ],
+    "offset": [
+      "versatz",
+      "verschiebung"
+    ],
+    "when": "wenn",
+    "keep": "behalten",
+    "take": [
+      "nehmen",
+      "nimm"
+    ],
+    "apply": "anwenden",
+    "superimpose": "überlagern",
+    "arrange": [
+      "arrangieren",
+      "anordnen"
+    ],
+    "repeatCycles": "zyklenWiederholen",
+    "replicate": [
+      "replizieren",
+      "vervielfachen"
+    ],
+    "extend": [
+      "erweitern",
+      "verlängern"
+    ],
+    "zoom": [
+      "zoomen",
+      "vergrößern"
+    ],
+    "segment": [
+      "segmentieren",
+      "unterteilen"
+    ],
+    "round": "runden",
+    "floor": "abrunden",
+    "ceil": "aufrunden",
+    "fold": "falten",
+    "clip": [
+      "begrenzen",
+      "clippen"
+    ],
+    "swingBy": "swingMit"
+  },
+  "sounds": {
+    "bassdrum1": [
+      "grosseTrommel",
+      "bassTrommel"
+    ],
+    "bassdrum2": [
+      "grosseTrommel2",
+      "bassTrommel2"
+    ],
+    "cowbell": [
+      "kuhglocke",
+      "kuhgloecke"
+    ],
+    "clap": [
+      "klatschen",
+      "handklatschen"
+    ],
+    "woodblock": "holzblock",
+    "sine": "sinus",
+    "sawtooth": [
+      "saegezahn",
+      "sägezahn"
+    ],
+    "saw": [
+      "saege",
+      "säge"
+    ],
+    "square": "rechteck",
+    "triangle": "dreieck",
+    "snare_hi": [
+      "kleineTrommelHoch",
+      "snareHoch"
+    ],
+    "snare_low": [
+      "kleineTrommelTief",
+      "snareTief"
+    ],
+    "snare_modern": [
+      "kleineTrommelModern",
+      "snareModern"
+    ],
+    "snare_rim": [
+      "kleineTrommelRand",
+      "snareRand"
+    ],
+    "clave": "klangholz",
+    "framedrum": "rahmentrommel",
+    "slitdrum": "schlitztrommel",
+    "oceandrum": [
+      "meerestrommel",
+      "ozeantrommel"
+    ],
+    "brakedrum": "bremstrommel",
+    "belltree": [
+      "glockenbaum",
+      "baumglocke"
+    ],
+    "sleighbells": [
+      "schellenkranz",
+      "schlittenglocken"
+    ],
+    "handbells": "handglocken",
+    "fingercymbal": [
+      "fingerzimbel",
+      "fingerbecken"
+    ],
+    "anvil": "amboss",
+    "crow": [
+      "krähe",
+      "kraehe"
+    ],
+    "insect": "insekt",
+    "siren": "sirene",
+    "trainwhistle": [
+      "zugpfeife",
+      "lokpfeife"
+    ],
+    "ballwhistle": [
+      "trillerpfeife",
+      "kugelpfeife"
+    ],
+    "metal": "metall",
+    "harp": "harfe",
+    "folkharp": [
+      "volksharfe",
+      "keltischeHarfe"
+    ],
+    "harmonica": "mundharmonika",
+    "recorder": [
+      "blockfloete",
+      "blockflöte"
+    ],
+    "timpani": [
+      "pauke",
+      "pauken"
+    ],
+    "timpani2": "pauke2",
+    "timpani_roll": "paukenwirbel",
+    "vibraphone": "vibraphon",
+    "vibraphone_bowed": "vibraphonGestrichen",
+    "vibraphone_soft": "vibraphonWeich",
+    "wineglass": "weinglas",
+    "wineglass_slow": "weinglasLangsam",
+    "ratchet": [
+      "ratsche",
+      "knarre"
+    ],
+    "flexatone": "flexaton",
+    "slapstick": [
+      "peitsche",
+      "schlagstock"
+    ],
+    "sus_cymbal": [
+      "haengebecken",
+      "hängebecken"
+    ],
+    "sus_cymbal2": [
+      "haengebecken2",
+      "hängebecken2"
+    ],
+    "tambourine": [
+      "tamburin",
+      "schellentrommel"
+    ],
+    "tambourine2": "tamburin2",
+    "clash": [
+      "beckenschlag",
+      "beckenpaar"
+    ],
+    "clash2": "beckenschlag2",
+    "conga": "kongatrommel",
+    "gm_piano": "piano",
+    "piano": "klavier",
+    "piano1": "klavier1",
+    "gm_acoustic_guitar_nylon": [
+      "akustikgitarreNylon",
+      "konzertgitarre"
+    ],
+    "gm_acoustic_guitar_steel": [
+      "akustikgitarreStahl",
+      "westerngitarre"
+    ],
+    "gm_violin": [
+      "violine",
+      "geige"
+    ],
+    "gm_viola": [
+      "bratsche",
+      "viola"
+    ],
+    "gm_cello": [
+      "cello",
+      "violoncello"
+    ],
+    "gm_trumpet": "trompete",
+    "gm_trombone": "posaune",
+    "gm_tuba": "tuba",
+    "gm_flute": [
+      "floete",
+      "flöte",
+      "querfloete"
+    ],
+    "gm_oboe": "oboe",
+    "gm_clarinet": "klarinette",
+    "gm_bassoon": "fagott",
+    "gm_french_horn": [
+      "waldhorn",
+      "horn"
+    ],
+    "gm_piccolo": [
+      "pikkolofloete",
+      "pikkoloflöte"
+    ],
+    "gm_harpsichord": "cembalo",
+    "gm_church_organ": "kirchenorgel",
+    "gm_accordion": "akkordeon",
+    "gm_bagpipe": "dudelsack",
+    "gm_banjo": "banjo",
+    "gm_whistle": "pfeife",
+    "gm_orchestral_harp": [
+      "konzertharfe",
+      "orchesterharfe"
+    ],
+    "gm_tubular_bells": [
+      "roehrenglocken",
+      "röhrenglocken"
+    ],
+    "gm_xylophone": "xylophon",
+    "gm_marimba": [
+      "marimba",
+      "marimbaphon"
+    ],
+    "gm_steel_drums": [
+      "steeldrums",
+      "stahltrommeln"
+    ],
+    "gm_gunshot": [
+      "schuss",
+      "gewehrschuss"
+    ],
+    "gm_applause": [
+      "applaus",
+      "beifall"
+    ],
+    "gm_seashore": [
+      "meeresrauschen",
+      "brandung"
+    ],
+    "gm_telephone": "telefon",
+    "gm_helicopter": [
+      "hubschrauber",
+      "helikopter"
+    ],
+    "gm_bird_tweet": "vogelzwitschern",
+    "gm_music_box": [
+      "spieldose",
+      "spieluhr"
+    ],
+    "gm_pan_flute": [
+      "panfloete",
+      "panflöte"
+    ],
+    "gm_celesta": "celesta",
+    "gm_choir_aahs": [
+      "chorAah",
+      "chorStimmen"
+    ]
+  },
+  "colors": {
+    "black": "schwarz",
+    "white": [
+      "weiss",
+      "weiß"
+    ],
+    "red": "rot",
+    "green": [
+      "gruen",
+      "grün"
+    ],
+    "blue": "blau",
+    "yellow": "gelb",
+    "gray": "grau",
+    "brown": "braun",
+    "pink": "rosa",
+    "purple": "lila",
+    "violet": [
+      "violett",
+      "veilchen"
+    ],
+    "silver": "silber",
+    "turquoise": [
+      "tuerkis",
+      "türkis"
+    ],
+    "cyan": "zyan",
+    "crimson": [
+      "karmesinrot",
+      "purpurrot"
+    ],
+    "maroon": [
+      "kastanienbraun",
+      "weinrot"
+    ],
+    "navy": [
+      "marineblau",
+      "marine"
+    ],
+    "teal": [
+      "petrol",
+      "blaugruen",
+      "blaugrün"
+    ],
+    "olive": "oliv",
+    "lime": [
+      "limette",
+      "limone"
+    ],
+    "coral": [
+      "koralle",
+      "korallenrot"
+    ],
+    "salmon": [
+      "lachs",
+      "lachsrosa"
+    ],
+    "ivory": "elfenbein",
+    "plum": [
+      "pflaume",
+      "pflaumenblau"
+    ],
+    "wheat": "weizen",
+    "snow": [
+      "schnee",
+      "schneeweiss",
+      "schneeweiß"
+    ],
+    "linen": "leinen",
+    "chocolate": [
+      "schokolade",
+      "schokoladenbraun"
+    ],
+    "tomato": [
+      "tomate",
+      "tomatenrot"
+    ],
+    "darkblue": "dunkelblau",
+    "darkgreen": [
+      "dunkelgruen",
+      "dunkelgrün"
+    ],
+    "darkred": "dunkelrot",
+    "darkgray": "dunkelgrau",
+    "darkorange": "dunkelorange",
+    "darkviolet": "dunkelviolett",
+    "darkcyan": [
+      "dunkelcyan",
+      "dunkeltuerkis",
+      "dunkeltürkis"
+    ],
+    "lightblue": "hellblau",
+    "lightgreen": [
+      "hellgruen",
+      "hellgrün"
+    ],
+    "lightgray": "hellgrau",
+    "lightyellow": "hellgelb",
+    "lightpink": "hellrosa",
+    "lightcyan": [
+      "hellcyan",
+      "helltuerkis",
+      "helltürkis"
+    ],
+    "midnightblue": "mitternachtsblau",
+    "skyblue": "himmelblau",
+    "lightskyblue": "hellhimmelblau",
+    "deepskyblue": "tiefhimmelblau",
+    "royalblue": [
+      "koenigsblau",
+      "königsblau"
+    ],
+    "steelblue": "stahlblau",
+    "powderblue": "puderblau",
+    "forestgreen": [
+      "waldgruen",
+      "waldgrün"
+    ],
+    "seagreen": [
+      "meergruen",
+      "meergrün"
+    ],
+    "springgreen": [
+      "fruehlingsgruen",
+      "frühlingsgrün"
+    ],
+    "lawngreen": [
+      "rasengruen",
+      "rasengrün"
+    ],
+    "olivedrab": [
+      "olivgruen",
+      "olivgrün"
+    ],
+    "hotpink": [
+      "knallrosa",
+      "pink"
+    ],
+    "deeppink": [
+      "tiefrosa",
+      "knallpink"
+    ],
+    "goldenrod": "goldgelb",
+    "firebrick": "ziegelrot",
+    "lavender": "lavendel",
+    "indianred": "indischrot",
+    "sienna": [
+      "siena",
+      "siena gebrannt"
+    ],
+    "orchid": "orchidee",
+    "thistle": "distel"
+  },
+  "notes": {
+    "b": "h"
+  },
+  "scales": {
+    "major": "dur",
+    "minor": "moll",
+    "major pentatonic": [
+      "durpentatonik",
+      "pentatonikdur"
+    ],
+    "minor pentatonic": [
+      "mollpentatonik",
+      "pentatonikmoll"
+    ],
+    "whole tone": [
+      "ganzton",
+      "ganztonleiter",
+      "ganztonskala"
+    ],
+    "whole tone pentatonic": "ganztonpentatonik",
+    "diminished": [
+      "vermindert",
+      "verminderteskala",
+      "verminderteleiter"
+    ],
+    "half-whole diminished": [
+      "halbganzvermindert",
+      "halbtonganztonleiter"
+    ],
+    "harmonic minor": [
+      "harmonischmoll",
+      "harmonischesmoll"
+    ],
+    "melodic minor": [
+      "melodischmoll",
+      "melodischesmoll"
+    ],
+    "harmonic major": [
+      "harmonischdur",
+      "harmonischesdur"
+    ],
+    "major blues": [
+      "durblues",
+      "bluesdur"
+    ],
+    "minor blues": [
+      "mollblues",
+      "bluesmoll"
+    ],
+    "chromatic": [
+      "chromatisch",
+      "chromatischeskala",
+      "chromatischeleiter"
+    ],
+    "augmented": [
+      "uebermaessig",
+      "übermäßig"
+    ],
+    "locrian": "lokrisch",
+    "dorian": "dorisch",
+    "phrygian": "phrygisch",
+    "lydian": "lydisch",
+    "mixolydian": "mixolydisch",
+    "phrygian dominant": [
+      "phrygischdominant",
+      "phrygischdominantisch"
+    ],
+    "persian": "persisch",
+    "egyptian": [
+      "aegyptisch",
+      "ägyptisch"
+    ],
+    "balinese": "balinesisch",
+    "hungarian major": [
+      "ungarischdur",
+      "ungarischedur"
+    ],
+    "hungarian minor": [
+      "ungarischmoll",
+      "ungarischemoll"
+    ],
+    "oriental": "orientalisch",
+    "spanish heptatonic": [
+      "spanischheptatonisch",
+      "spanischeheptatonik"
+    ],
+    "neopolitan major": [
+      "neapolitanischdur",
+      "neapolitanischedur"
+    ],
+    "neopolitan major pentatonic": "neapolitanischdurpentatonik",
+    "prometheus neopolitan": "prometheusneapolitanisch",
+    "enigmatic": [
+      "enigmatisch",
+      "raetselskala"
+    ],
+    "leading whole tone": [
+      "leiteigenerganzton",
+      "fuehrenderganzton"
+    ],
+    "six tone symmetric": "sechstonsymmetrisch",
+    "composite blues": "kombinierterblues",
+    "messiaen's mode #3": [
+      "messiaenmodus3",
+      "messiaensmodus3"
+    ],
+    "messiaen's mode #4": [
+      "messiaenmodus4",
+      "messiaensmodus4"
+    ],
+    "messiaen's mode #5": [
+      "messiaenmodus5",
+      "messiaensmodus5"
+    ],
+    "messiaen's mode #6": [
+      "messiaenmodus6",
+      "messiaensmodus6"
+    ],
+    "messiaen's mode #7": [
+      "messiaenmodus7",
+      "messiaensmodus7"
+    ],
+    "in-sen": "insen",
+    "kafi raga": "kafiraga",
+    "malkos raga": "malkosraga",
+    "purvi raga": "purviraga",
+    "todi raga": "todiraga"
+  }
+}

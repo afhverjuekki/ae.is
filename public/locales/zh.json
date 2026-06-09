@@ -1,0 +1,752 @@
+{
+  "locale": "zh",
+  "font": {
+    "family": "Noto Sans SC",
+    "css": "https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-sc/index.css"
+  },
+  "functions": {
+    "fast": [
+      "快",
+      "加速"
+    ],
+    "slow": [
+      "慢",
+      "减速"
+    ],
+    "rev": [
+      "反转",
+      "倒放"
+    ],
+    "every": "每",
+    "sometimes": "有时",
+    "often": "经常",
+    "rarely": "很少",
+    "always": "总是",
+    "never": "从不",
+    "almostAlways": "几乎总是",
+    "almostNever": "几乎从不",
+    "someCycles": "某些周期",
+    "degrade": [
+      "衰减丢弃",
+      "随机丢弃"
+    ],
+    "degradeBy": "随机丢弃量",
+    "undegrade": "反向丢弃",
+    "rand": "随机",
+    "irand": "整数随机",
+    "choose": [
+      "随机选",
+      "选择"
+    ],
+    "chooseCycles": "按周期随机选",
+    "wchoose": "加权随机选",
+    "shuffle": [
+      "洗牌",
+      "随机排序"
+    ],
+    "scramble": "打乱",
+    "seed": "随机种子",
+    "noise": [
+      "噪声",
+      "噪音"
+    ],
+    "perlin": "柏林噪声",
+    "gain": "增益",
+    "pan": [
+      "声像",
+      "声相"
+    ],
+    "velocity": "力度",
+    "speed": [
+      "速度",
+      "播放速度"
+    ],
+    "room": [
+      "混响",
+      "房间"
+    ],
+    "roomsize": [
+      "房间大小",
+      "混响大小"
+    ],
+    "delay": [
+      "延迟",
+      "回声"
+    ],
+    "delaytime": "延迟时间",
+    "delayfeedback": "延迟反馈",
+    "crush": [
+      "位压缩",
+      "降位"
+    ],
+    "distort": "失真",
+    "shape": [
+      "波形整形",
+      "失真量"
+    ],
+    "coarse": [
+      "降采样",
+      "粗糙度"
+    ],
+    "chorus": [
+      "合唱",
+      "和声效果"
+    ],
+    "phaser": [
+      "相位器",
+      "移相器"
+    ],
+    "phaserdepth": "相位深度",
+    "tremolo": [
+      "颤音",
+      "震音"
+    ],
+    "vibrato": "揉弦",
+    "compress": "压缩",
+    "compressor": "压缩器",
+    "cutoff": [
+      "截止频率",
+      "截止"
+    ],
+    "lpf": [
+      "低通",
+      "低通滤波"
+    ],
+    "hpf": [
+      "高通",
+      "高通滤波"
+    ],
+    "bpf": [
+      "带通",
+      "带通滤波"
+    ],
+    "resonance": [
+      "共振",
+      "谐振"
+    ],
+    "hcutoff": "高通截止",
+    "hresonance": "高通共振",
+    "filter": "滤波器",
+    "attack": "起音",
+    "decay": "衰减",
+    "sustain": "延音",
+    "release": "释音",
+    "adsr": [
+      "包络",
+      "包络线"
+    ],
+    "legato": [
+      "连音",
+      "连奏"
+    ],
+    "clip": [
+      "音符时长",
+      "裁剪"
+    ],
+    "note": [
+      "音符",
+      "音高"
+    ],
+    "sound": [
+      "声音",
+      "音色"
+    ],
+    "bank": [
+      "音色库",
+      "采样库"
+    ],
+    "chord": "和弦",
+    "scale": "音阶",
+    "transpose": [
+      "移调",
+      "变调"
+    ],
+    "detune": [
+      "失谐",
+      "微调音高"
+    ],
+    "freq": "频率",
+    "octaves": "八度",
+    "unison": [
+      "齐奏",
+      "叠音"
+    ],
+    "vowel": [
+      "元音",
+      "人声共振"
+    ],
+    "sine": [
+      "正弦",
+      "正弦波"
+    ],
+    "saw": [
+      "锯齿",
+      "锯齿波"
+    ],
+    "square": "方波",
+    "tri": "三角波",
+    "pure": "纯净",
+    "silence": "静音",
+    "hush": "停止",
+    "stack": [
+      "堆叠",
+      "叠加"
+    ],
+    "sequence": "序列",
+    "cat": [
+      "拼接",
+      "连接"
+    ],
+    "slowcat": "慢拼接",
+    "fastcat": "快拼接",
+    "arrange": "编排",
+    "range": [
+      "范围",
+      "区间"
+    ],
+    "run": "递增序列",
+    "iter": [
+      "迭代",
+      "逐周期移位"
+    ],
+    "palindrome": [
+      "回文",
+      "回旋"
+    ],
+    "jux": [
+      "立体声变体",
+      "左右分置"
+    ],
+    "superimpose": "叠加变体",
+    "layer": [
+      "分层",
+      "图层"
+    ],
+    "add": "加",
+    "sub": "减",
+    "mul": "乘",
+    "div": "除",
+    "set": "设为",
+    "struct": [
+      "节奏结构",
+      "结构"
+    ],
+    "mask": [
+      "遮罩",
+      "掩码"
+    ],
+    "euclid": "欧几里得",
+    "segment": [
+      "分段",
+      "采样分段"
+    ],
+    "slice": "切片",
+    "chop": [
+      "切碎",
+      "切块"
+    ],
+    "splice": "拼接切片",
+    "loop": "循环",
+    "loopAt": "循环时长",
+    "begin": [
+      "起始",
+      "起点"
+    ],
+    "end": [
+      "结束",
+      "终点"
+    ],
+    "swing": [
+      "摇摆",
+      "律动"
+    ],
+    "chunk": "分块处理",
+    "linger": [
+      "停留",
+      "延宕"
+    ],
+    "zoom": [
+      "缩放",
+      "放大"
+    ],
+    "early": "提前",
+    "late": "延后",
+    "hurry": "加速变速",
+    "when": "当",
+    "within": "在区间内",
+    "firstOf": "首次于",
+    "lastOf": "末次于",
+    "duck": [
+      "闪避",
+      "侧链"
+    ],
+    "orbit": [
+      "效果轨道",
+      "轨道"
+    ],
+    "postgain": "后级增益",
+    "drive": [
+      "驱动",
+      "过载"
+    ],
+    "crossfade": "交叉淡化",
+    "ratio": [
+      "压缩比",
+      "比率"
+    ],
+    "fold": "折叠",
+    "round": [
+      "取整",
+      "四舍五入"
+    ],
+    "floor": "向下取整",
+    "ceil": "向上取整",
+    "invert": [
+      "反相",
+      "转位"
+    ],
+    "voicing": [
+      "和声配置",
+      "声部排列"
+    ],
+    "morph": [
+      "渐变",
+      "形变"
+    ],
+    "warp": [
+      "扭曲",
+      "时间扭曲"
+    ],
+    "wavetablePosition": "波表位置",
+    "partials": [
+      "泛音",
+      "分音"
+    ],
+    "tune": [
+      "调音",
+      "音准"
+    ],
+    "duration": "时长",
+    "fm": "调频合成",
+    "lfo": "低频振荡",
+    "keep": "保留",
+    "drop": [
+      "丢弃",
+      "舍弃"
+    ],
+    "pick": [
+      "挑选",
+      "索引选择"
+    ],
+    "repeatCycles": "重复周期",
+    "replicate": "复制",
+    "polyrhythm": [
+      "复节奏",
+      "多重节奏"
+    ],
+    "polymeter": "复拍子",
+    "cpm": "每分钟周期"
+  },
+  "sounds": {
+    "bd": "底鼓",
+    "sd": "军鼓",
+    "snare_hi": "高军鼓",
+    "snare_low": "低军鼓",
+    "snare_modern": "现代军鼓",
+    "snare_rim": "军鼓边击",
+    "rim": "边击",
+    "clap": [
+      "拍手",
+      "掌声"
+    ],
+    "hihat": "踩镲",
+    "oh": "开镲",
+    "cowbell": "牛铃",
+    "woodblock": [
+      "木鱼",
+      "木块"
+    ],
+    "clave": "响棒",
+    "conga": "康加鼓",
+    "bongo": "邦戈鼓",
+    "tambourine": "铃鼓",
+    "shaker_large": "大沙锤",
+    "shaker_small": "小沙锤",
+    "cabasa": "卡巴萨",
+    "maracas": "沙球",
+    "agogo": "阿哥哥铃",
+    "triangle": "三角铁",
+    "guiro": "刮葫",
+    "cajon": "木箱鼓",
+    "darbuka": "达布卡鼓",
+    "framedrum": "框鼓",
+    "oceandrum": "海洋鼓",
+    "slitdrum": "缝隙鼓",
+    "timpani": "定音鼓",
+    "timpani_roll": "定音鼓滚奏",
+    "gong": "锣",
+    "anvil": "铁砧",
+    "belltree": "排铃",
+    "sleighbells": "雪橇铃",
+    "handbells": "手铃",
+    "handchimes": "手摇钟",
+    "fingercymbal": "指钹",
+    "vibraslap": "振荡器响板",
+    "sus_cymbal": "吊镲",
+    "clash": "对镲",
+    "cr": "叉镲",
+    "rd": "叮叮镲",
+    "crow": "乌鸦声",
+    "ratchet": "齿轮响器",
+    "flexatone": "弹音器",
+    "slapstick": "拍板",
+    "wineglass": "酒杯琴",
+    "wineglass_slow": "酒杯琴慢奏",
+    "siren": "警笛",
+    "trainwhistle": "火车汽笛",
+    "ballwhistle": "哨子",
+    "wind": "风声",
+    "insect": "虫鸣",
+    "space": "太空音",
+    "metal": "金属声",
+    "piano": "钢琴",
+    "organ_full": "管风琴",
+    "pipeorgan_loud": "管风琴强奏",
+    "pipeorgan_quiet": "管风琴弱奏",
+    "harp": "竖琴",
+    "folkharp": "民谣竖琴",
+    "harmonica": "口琴",
+    "harmonica_soft": "口琴轻奏",
+    "harmonica_vib": "口琴颤音",
+    "ocarina": "陶笛",
+    "ocarina_vib": "陶笛颤音",
+    "recorder_soprano_sus": "高音竖笛",
+    "recorder_alto_sus": "中音竖笛",
+    "recorder_tenor_sus": "次中音竖笛",
+    "recorder_bass_sus": "低音竖笛",
+    "sax": "萨克斯",
+    "sax_vib": "萨克斯颤音",
+    "saxello": "弯管萨克斯",
+    "glockenspiel": "钟琴",
+    "vibraphone": "颤音琴",
+    "vibraphone_bowed": "颤音琴弓奏",
+    "vibraphone_soft": "颤音琴轻奏",
+    "marimba": "马林巴",
+    "balafon": "巴拉风琴",
+    "kalimba": "卡林巴",
+    "tubularbells": "管钟",
+    "didgeridoo": "迪吉里杜管",
+    "mridangam": [
+      "姆里丹甘鼓",
+      "南印度双面鼓"
+    ],
+    "dantranh": "越南筝",
+    "dantranh_tremolo": "越南筝震音",
+    "dantranh_vibrato": "越南筝颤音",
+    "fmpiano": [
+      "调频钢琴",
+      "FM钢琴"
+    ],
+    "clavisynth": "合成击弦键琴",
+    "sine": [
+      "正弦波",
+      "正弦"
+    ],
+    "sawtooth": "锯齿波",
+    "square": "方波",
+    "z_noise": "噪声",
+    "z_triangle": "三角波",
+    "gm_violin": "小提琴",
+    "gm_viola": "中提琴",
+    "gm_cello": "大提琴",
+    "gm_contrabass": "低音提琴",
+    "gm_flute": "长笛",
+    "gm_piccolo": "短笛",
+    "gm_clarinet": "单簧管",
+    "gm_oboe": "双簧管",
+    "gm_bassoon": "巴松管",
+    "gm_trumpet": "小号",
+    "gm_trombone": "长号",
+    "gm_tuba": "大号",
+    "gm_french_horn": "圆号",
+    "gm_accordion": "手风琴",
+    "gm_banjo": "班卓琴",
+    "gm_sitar": "西塔琴",
+    "gm_koto": "日本筝",
+    "gm_shamisen": "三味线",
+    "gm_shakuhachi": "尺八",
+    "gm_xylophone": "木琴",
+    "gm_celesta": "钢片琴",
+    "gm_music_box": "音乐盒",
+    "gm_harpsichord": "羽管键琴",
+    "gm_taiko_drum": "太鼓",
+    "gm_steel_drums": "钢鼓",
+    "gm_pan_flute": "排箫",
+    "gm_recorder": "竖笛",
+    "gm_whistle": "口哨",
+    "gm_bagpipe": "风笛",
+    "gm_fiddle": "提琴",
+    "gm_dulcimer": "扬琴",
+    "gm_gunshot": "枪声",
+    "gm_seashore": "海浪声",
+    "gm_bird_tweet": "鸟鸣",
+    "gm_telephone": "电话铃",
+    "gm_helicopter": "直升机声",
+    "gm_orchestra_hit": "管弦齐奏",
+    "gm_tinkle_bell": "叮当铃"
+  },
+  "colors": {
+    "red": [
+      "红",
+      "红色"
+    ],
+    "blue": [
+      "蓝",
+      "蓝色"
+    ],
+    "green": [
+      "绿",
+      "绿色"
+    ],
+    "yellow": [
+      "黄",
+      "黄色"
+    ],
+    "black": [
+      "黑",
+      "黑色"
+    ],
+    "white": [
+      "白",
+      "白色"
+    ],
+    "orange": [
+      "橙",
+      "橙色"
+    ],
+    "purple": [
+      "紫",
+      "紫色"
+    ],
+    "pink": [
+      "粉",
+      "粉红"
+    ],
+    "brown": [
+      "棕",
+      "褐色"
+    ],
+    "gray": [
+      "灰",
+      "灰色"
+    ],
+    "cyan": [
+      "青",
+      "青色"
+    ],
+    "aqua": "水绿色",
+    "magenta": [
+      "品红",
+      "洋红"
+    ],
+    "violet": "紫罗兰色",
+    "indigo": [
+      "靛蓝",
+      "靛青"
+    ],
+    "gold": [
+      "金",
+      "金色"
+    ],
+    "silver": [
+      "银",
+      "银色"
+    ],
+    "navy": [
+      "海军蓝",
+      "藏青"
+    ],
+    "teal": [
+      "青绿",
+      "蓝绿"
+    ],
+    "maroon": [
+      "栗色",
+      "褐红"
+    ],
+    "olive": [
+      "橄榄色",
+      "橄榄绿"
+    ],
+    "lime": [
+      "柠檬绿",
+      "青柠色"
+    ],
+    "crimson": [
+      "绯红",
+      "深红"
+    ],
+    "scarlet": "猩红",
+    "tomato": "番茄红",
+    "coral": "珊瑚色",
+    "salmon": [
+      "鲑鱼色",
+      "三文鱼色"
+    ],
+    "khaki": [
+      "卡其色",
+      "土黄"
+    ],
+    "tan": [
+      "棕褐色",
+      "茶色"
+    ],
+    "beige": [
+      "米色",
+      "米黄"
+    ],
+    "ivory": [
+      "象牙白",
+      "象牙色"
+    ],
+    "snow": "雪白",
+    "lavender": [
+      "薰衣草紫",
+      "淡紫"
+    ],
+    "plum": [
+      "梅红",
+      "李紫"
+    ],
+    "orchid": "兰花紫",
+    "turquoise": [
+      "绿松石色",
+      "青绿色"
+    ],
+    "skyblue": [
+      "天蓝",
+      "天蓝色"
+    ],
+    "deepskyblue": "深天蓝",
+    "lightblue": [
+      "浅蓝",
+      "淡蓝"
+    ],
+    "darkblue": "深蓝",
+    "royalblue": [
+      "宝蓝",
+      "皇家蓝"
+    ],
+    "steelblue": [
+      "钢青色",
+      "钢蓝"
+    ],
+    "midnightblue": "午夜蓝",
+    "dodgerblue": "道奇蓝",
+    "darkgreen": "深绿",
+    "lightgreen": [
+      "浅绿",
+      "淡绿"
+    ],
+    "forestgreen": "森林绿",
+    "seagreen": "海绿",
+    "springgreen": "春绿",
+    "lawngreen": "草绿",
+    "olivedrab": "暗橄榄绿",
+    "darkorange": "深橙",
+    "orangered": "橙红",
+    "hotpink": [
+      "亮粉",
+      "艳粉"
+    ],
+    "deeppink": "深粉",
+    "lightpink": "浅粉",
+    "darkgray": "深灰",
+    "lightgray": "浅灰",
+    "dimgray": "暗灰",
+    "darkviolet": "深紫罗兰",
+    "darkmagenta": "深品红",
+    "wheat": "小麦色",
+    "chocolate": "巧克力色",
+    "sienna": "赭色",
+    "peru": "秘鲁色",
+    "chartreuse": [
+      "查特酒绿",
+      "黄绿"
+    ]
+  },
+  "notes": {
+    "c": "宫",
+    "d": "商",
+    "e": "角",
+    "f": [
+      "变徵",
+      "清角"
+    ],
+    "g": "徵",
+    "a": "羽",
+    "b": "变宫"
+  },
+  "scales": {
+    "major": "大调",
+    "minor": "小调",
+    "ionian": "伊奥尼亚调式",
+    "dorian": "多利亚调式",
+    "phrygian": "弗里几亚调式",
+    "lydian": "利底亚调式",
+    "mixolydian": "混合利底亚调式",
+    "locrian": "洛克里亚调式",
+    "chromatic": "半音阶",
+    "whole tone": "全音阶",
+    "diminished": "减音阶",
+    "augmented": "增音阶",
+    "major pentatonic": "大调五声音阶",
+    "minor pentatonic": "小调五声音阶",
+    "harmonic minor": "和声小调",
+    "melodic minor": "旋律小调",
+    "harmonic major": "和声大调",
+    "major blues": "大调布鲁斯音阶",
+    "minor blues": "小调布鲁斯音阶",
+    "composite blues": "复合布鲁斯音阶",
+    "bebop": "比波普音阶",
+    "bebop major": "大调比波普音阶",
+    "bebop minor": "小调比波普音阶",
+    "altered": "变化音阶",
+    "phrygian dominant": "弗里几亚属音阶",
+    "flamenco": "弗拉门戈音阶",
+    "spanish heptatonic": "西班牙七声音阶",
+    "hungarian minor": "匈牙利小调",
+    "hungarian major": "匈牙利大调",
+    "double harmonic major": "双和声大调",
+    "neopolitan major": "那不勒斯大调",
+    "enigmatic": "谜音阶",
+    "persian": "波斯音阶",
+    "oriental": "东方音阶",
+    "egyptian": "埃及音阶",
+    "balinese": "巴厘音阶",
+    "pelog": "佩洛格音阶",
+    "hirajoshi": "平调子",
+    "iwato": "岩户调",
+    "kumoijoshi": "云井调子",
+    "in-sen": "阴旋音阶",
+    "ichikosucho": "一越调",
+    "vietnamese 1": "越南音阶一",
+    "kafi raga": "卡菲拉格",
+    "malkos raga": "马尔科斯拉格",
+    "purvi raga": "普尔维拉格",
+    "todi raga": "托迪拉格",
+    "messiaen's mode #3": "梅西安第三调式",
+    "messiaen's mode #4": "梅西安第四调式",
+    "messiaen's mode #5": "梅西安第五调式",
+    "messiaen's mode #6": "梅西安第六调式",
+    "messiaen's mode #7": "梅西安第七调式",
+    "prometheus": "普罗米修斯音阶",
+    "scriabin": "斯克里亚宾音阶",
+    "leading whole tone": "导全音阶",
+    "six tone symmetric": "六音对称音阶",
+    "lydian dominant": "利底亚属音阶",
+    "lydian augmented": "利底亚增音阶",
+    "locrian major": "洛克里亚大调",
+    "ritusen": "律旋音阶"
+  }
+}

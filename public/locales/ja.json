@@ -1,0 +1,476 @@
+{
+  "locale": "ja",
+  "font": {
+    "family": "Noto Sans JP",
+    "css": "https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-jp/index.css"
+  },
+  "functions": {
+    "fast": [
+      "速く",
+      "速い"
+    ],
+    "slow": [
+      "遅く",
+      "遅い"
+    ],
+    "hurry": "急ぐ",
+    "rev": [
+      "逆",
+      "逆再生"
+    ],
+    "palindrome": "回文",
+    "every": "毎",
+    "sometimes": [
+      "たまに",
+      "時々"
+    ],
+    "often": [
+      "よく",
+      "しばしば"
+    ],
+    "rarely": [
+      "まれに",
+      "めったに"
+    ],
+    "always": [
+      "常に",
+      "いつも"
+    ],
+    "never": "決して",
+    "almostAlways": "ほぼ常に",
+    "almostNever": "ほぼ決して",
+    "degrade": "間引く",
+    "rand": [
+      "乱数",
+      "ランダム"
+    ],
+    "choose": "選ぶ",
+    "shuffle": "シャッフル",
+    "scramble": "かき混ぜる",
+    "noise": "ノイズ",
+    "gain": [
+      "ゲイン",
+      "音量"
+    ],
+    "pan": [
+      "パン",
+      "定位"
+    ],
+    "room": [
+      "リバーブ",
+      "ルーム"
+    ],
+    "roomsize": "ルームサイズ",
+    "size": "サイズ",
+    "delay": [
+      "ディレイ",
+      "エコー"
+    ],
+    "delaytime": "ディレイタイム",
+    "delayfeedback": "ディレイフィードバック",
+    "delayfb": "フィードバック",
+    "chorus": "コーラス",
+    "phaser": "フェイザー",
+    "tremolo": "トレモロ",
+    "vibrato": "ビブラート",
+    "distort": [
+      "ディストーション",
+      "歪み"
+    ],
+    "crush": [
+      "ビットクラッシュ",
+      "クラッシュ"
+    ],
+    "coarse": [
+      "コース",
+      "ダウンサンプル"
+    ],
+    "shape": [
+      "シェイプ",
+      "ウェーブシェイプ"
+    ],
+    "vowel": [
+      "母音",
+      "ボーカル"
+    ],
+    "cutoff": "カットオフ",
+    "resonance": "レゾナンス",
+    "lpf": [
+      "ローパス",
+      "ローパスフィルター"
+    ],
+    "hpf": [
+      "ハイパス",
+      "ハイパスフィルター"
+    ],
+    "bpf": [
+      "バンドパス",
+      "バンドパスフィルター"
+    ],
+    "filter": "フィルター",
+    "detune": "デチューン",
+    "adsr": "エンベロープ",
+    "attack": "アタック",
+    "decay": "ディケイ",
+    "sustain": "サステイン",
+    "release": "リリース",
+    "legato": "レガート",
+    "clip": "クリップ",
+    "speed": [
+      "スピード",
+      "再生速度"
+    ],
+    "note": [
+      "ノート",
+      "音"
+    ],
+    "sound": "サウンド",
+    "chord": [
+      "コード",
+      "和音"
+    ],
+    "scale": [
+      "スケール",
+      "音階"
+    ],
+    "transpose": [
+      "トランスポーズ",
+      "移調"
+    ],
+    "stack": "重ねる",
+    "layer": "レイヤー",
+    "loop": [
+      "ループ",
+      "繰り返す"
+    ],
+    "iter": "イテレート",
+    "segment": [
+      "セグメント",
+      "分割"
+    ],
+    "slice": "スライス",
+    "chop": "チョップ",
+    "speedup": "速める",
+    "velocity": "ベロシティ",
+    "crossfade": "クロスフェード",
+    "swing": "スウィング",
+    "compressor": [
+      "コンプレッサー",
+      "コンプ"
+    ],
+    "duck": "ダッキング",
+    "freq": "周波数",
+    "tune": [
+      "チューニング",
+      "音程"
+    ],
+    "wavetable": "ウェーブテーブル",
+    "unison": "ユニゾン",
+    "silence": "無音",
+    "hush": "静かに",
+    "range": [
+      "レンジ",
+      "範囲"
+    ],
+    "struct": [
+      "リズム",
+      "構造"
+    ],
+    "mask": "マスク"
+  },
+  "sounds": {
+    "bd": [
+      "バスドラム",
+      "キック"
+    ],
+    "sd": "スネア",
+    "snare_hi": "スネアハイ",
+    "snare_low": "スネアロー",
+    "snare_modern": "モダンスネア",
+    "snare_rim": "スネアリム",
+    "clap": [
+      "クラップ",
+      "手拍子"
+    ],
+    "hh": "ハイハット",
+    "oh": "オープンハイハット",
+    "cowbell": "カウベル",
+    "woodblock": [
+      "ウッドブロック",
+      "木魚"
+    ],
+    "clave": "クラベス",
+    "conga": "コンガ",
+    "bongo": "ボンゴ",
+    "tambourine": "タンバリン",
+    "shaker_large": "シェイカー大",
+    "shaker_small": "シェイカー小",
+    "cabasa": "カバサ",
+    "guiro": "ギロ",
+    "agogo": "アゴゴ",
+    "triangle": "トライアングル",
+    "tri": "三角波",
+    "sine": "サイン波",
+    "saw": "ノコギリ波",
+    "square": "矩形波",
+    "timpani": "ティンパニ",
+    "gong": [
+      "銅鑼",
+      "ゴング"
+    ],
+    "marimba": "マリンバ",
+    "vibraphone": "ビブラフォン",
+    "glockenspiel": "グロッケン",
+    "kalimba": "カリンバ",
+    "balafon": "バラフォン",
+    "piano": "ピアノ",
+    "organ_full": "オルガン",
+    "harmonica": "ハーモニカ",
+    "harp": [
+      "ハープ",
+      "竪琴"
+    ],
+    "folkharp": "フォークハープ",
+    "recorder_soprano_sus": "リコーダー",
+    "ocarina": "オカリナ",
+    "didgeridoo": "ディジュリドゥ",
+    "darbuka": "ダルブッカ",
+    "cajon": "カホン",
+    "framedrum": "フレームドラム",
+    "mridangam": "ムリダンガム",
+    "sax": "サックス",
+    "saxello": "サクセロ",
+    "sleighbells": [
+      "スレイベル",
+      "鈴"
+    ],
+    "handbells": "ハンドベル",
+    "belltree": "ベルツリー",
+    "tubularbells": "チューブラーベル",
+    "fmpiano": "FMピアノ",
+    "gm_violin": "バイオリン",
+    "gm_viola": "ビオラ",
+    "gm_cello": "チェロ",
+    "gm_contrabass": "コントラバス",
+    "gm_flute": "フルート",
+    "gm_oboe": "オーボエ",
+    "gm_clarinet": "クラリネット",
+    "gm_bassoon": "ファゴット",
+    "gm_piccolo": "ピッコロ",
+    "gm_trumpet": "トランペット",
+    "gm_trombone": "トロンボーン",
+    "gm_tuba": "チューバ",
+    "gm_french_horn": "ホルン",
+    "gm_accordion": "アコーディオン",
+    "gm_banjo": "バンジョー",
+    "gm_sitar": "シタール",
+    "gm_koto": "箏",
+    "gm_shamisen": "三味線",
+    "gm_shakuhachi": "尺八",
+    "gm_taiko_drum": "太鼓",
+    "gm_xylophone": "シロフォン",
+    "gm_celesta": "チェレスタ",
+    "gm_music_box": "オルゴール",
+    "gm_harpsichord": "チェンバロ",
+    "gm_church_organ": "パイプオルガン",
+    "gm_acoustic_bass": "アコースティックベース",
+    "gm_pan_flute": "パンフルート",
+    "gm_whistle": "口笛",
+    "gm_applause": "拍手",
+    "gm_seashore": "波の音",
+    "gm_steel_drums": "スティールドラム",
+    "gm_lead_1_square": "矩形波リード",
+    "gm_lead_2_sawtooth": "ノコギリ波リード"
+  },
+  "colors": {
+    "red": "赤",
+    "blue": "青",
+    "green": "緑",
+    "yellow": [
+      "黄",
+      "黄色"
+    ],
+    "black": "黒",
+    "white": "白",
+    "orange": [
+      "オレンジ",
+      "橙"
+    ],
+    "purple": "紫",
+    "pink": [
+      "ピンク",
+      "桃色"
+    ],
+    "brown": [
+      "茶色",
+      "茶"
+    ],
+    "gray": [
+      "灰色",
+      "グレー"
+    ],
+    "cyan": [
+      "シアン",
+      "水色"
+    ],
+    "magenta": "マゼンタ",
+    "violet": [
+      "菫色",
+      "バイオレット"
+    ],
+    "indigo": "藍色",
+    "navy": [
+      "紺",
+      "ネイビー"
+    ],
+    "gold": [
+      "金色",
+      "ゴールド"
+    ],
+    "silver": [
+      "銀色",
+      "シルバー"
+    ],
+    "crimson": "紅",
+    "teal": [
+      "青緑",
+      "ティール"
+    ],
+    "turquoise": "ターコイズ",
+    "lime": [
+      "黄緑",
+      "ライム"
+    ],
+    "maroon": "栗色",
+    "olive": "オリーブ",
+    "salmon": "サーモン",
+    "coral": [
+      "珊瑚色",
+      "コーラル"
+    ],
+    "ivory": [
+      "アイボリー",
+      "象牙色"
+    ],
+    "beige": "ベージュ",
+    "khaki": "カーキ",
+    "lavender": "ラベンダー",
+    "skyblue": "空色",
+    "darkblue": [
+      "濃紺",
+      "暗い青"
+    ],
+    "darkgreen": "深緑",
+    "darkred": "暗赤色",
+    "lightgreen": "薄緑",
+    "hotpink": "濃いピンク"
+  },
+  "notes": {
+    "c": [
+      "ハ",
+      "ド"
+    ],
+    "d": [
+      "ニ",
+      "レ"
+    ],
+    "e": [
+      "ホ",
+      "ミ"
+    ],
+    "f": [
+      "ヘ",
+      "ファ"
+    ],
+    "g": [
+      "ト",
+      "ソ"
+    ],
+    "a": [
+      "イ",
+      "ラ"
+    ],
+    "b": [
+      "ロ",
+      "シ"
+    ]
+  },
+  "scales": {
+    "major": [
+      "長調",
+      "メジャー"
+    ],
+    "minor": [
+      "短調",
+      "マイナー"
+    ],
+    "ionian": "イオニアン",
+    "dorian": "ドリアン",
+    "phrygian": "フリジアン",
+    "lydian": "リディアン",
+    "mixolydian": "ミクソリディアン",
+    "locrian": "ロクリアン",
+    "major pentatonic": [
+      "メジャーペンタトニック",
+      "陽音階"
+    ],
+    "minor pentatonic": "マイナーペンタトニック",
+    "major blues": "メジャーブルース",
+    "minor blues": "マイナーブルース",
+    "composite blues": "ブルーススケール",
+    "whole tone": [
+      "全音音階",
+      "ホールトーン"
+    ],
+    "chromatic": [
+      "半音階",
+      "クロマチック"
+    ],
+    "diminished": "ディミニッシュ",
+    "half-whole diminished": "コンビネーションディミニッシュ",
+    "augmented": "オーグメント",
+    "harmonic minor": [
+      "和声的短音階",
+      "ハーモニックマイナー"
+    ],
+    "melodic minor": [
+      "旋律的短音階",
+      "メロディックマイナー"
+    ],
+    "harmonic major": "ハーモニックメジャー",
+    "phrygian dominant": "フリジアンドミナント",
+    "flamenco": "フラメンコ",
+    "spanish heptatonic": "スパニッシュ",
+    "hirajoshi": "平調子",
+    "iwato": "岩戸",
+    "kumoijoshi": "雲井調子",
+    "in-sen": "陰旋",
+    "ichikosucho": "一越調",
+    "egyptian": "エジプシャン",
+    "balinese": "バリ",
+    "pelog": "ペロッグ",
+    "persian": "ペルシャン",
+    "oriental": "オリエンタル",
+    "hungarian minor": "ハンガリアンマイナー",
+    "hungarian major": "ハンガリアンメジャー",
+    "double harmonic major": "ダブルハーモニックメジャー",
+    "neopolitan major": "ナポリタンメジャー",
+    "enigmatic": "エニグマティック",
+    "prometheus": "プロメテウス",
+    "scriabin": "スクリャービン",
+    "bebop": "ビバップ",
+    "bebop major": "ビバップメジャー",
+    "bebop minor": "ビバップマイナー",
+    "lydian dominant": "リディアンドミナント",
+    "lydian augmented": "リディアンオーグメント",
+    "super locrian pentatonic": "スーパーロクリアン",
+    "altered": "オルタード",
+    "messiaen's mode #3": "メシアン第3旋法",
+    "kafi raga": "カーフィー",
+    "malkos raga": "マルコース",
+    "todi raga": "トーディー",
+    "purvi raga": "プールヴィー",
+    "vietnamese 1": "ベトナム",
+    "ritusen": "律旋"
+  }
+}
