@@ -34,7 +34,7 @@
 // 27. Kaflar og útsetning (sections & arrange)
 // 28. Orðasmíð (coinage)
 
-await ohmlang('https://æ.is/public/ristavel.mjs')
+await ohmlang('https://æ.is/assets/ristavel.mjs')
 
 
 // 1. Grunnatriði (baseline)
