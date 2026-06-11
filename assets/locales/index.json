@@ -25,6 +25,12 @@
       "status": "machine"
     },
     {
+      "code": "fa",
+      "path": "/assets/locales/fa.json",
+      "source": "locale.fa.json",
+      "status": "machine"
+    },
+    {
       "code": "is",
       "path": "/assets/locales/is.json",
       "source": "locale.is.json",
@@ -40,6 +46,12 @@
       "code": "ko",
       "path": "/assets/locales/ko.json",
       "source": "locale.ko.json",
+      "status": "machine"
+    },
+    {
+      "code": "nqo",
+      "path": "/assets/locales/nqo.json",
+      "source": "locale.nqo.json",
       "status": "machine"
     },
     {

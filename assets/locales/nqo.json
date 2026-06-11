@@ -1,0 +1,50 @@
+{
+  "locale": "nqo",
+  "direction": "rtl",
+  "font": {
+    "family": "Noto Sans NKo",
+    "css": "https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-nko/index.css"
+  },
+  "functions": {
+    "fast": [
+      "ߞߊߟߌߦߊ",
+      "ߝߊ߬ߛߌ"
+    ],
+    "slow": "ߛߎߡߊ߲ߦߊ",
+    "rev": "ߞߐߘߐߦߊ",
+    "every": "ߓߍ߯",
+    "sound": "ߞߊ߲",
+    "note": "ߘߏ߲",
+    "gain": "ߝߊ߲ߞߊ",
+    "room": "ߓߏ߲",
+    "delay": "ߡߊߞߏߟߌ",
+    "color": "ߞߐ߬ߟߐ߲"
+  },
+  "sounds": {
+    "bd": "ߘߎ߲ߘߎ߲",
+    "sd": "ߕߊߡߊ",
+    "hh": "ߤߊߕ",
+    "sine": "ߛߌߣߌ"
+  },
+  "notes": {
+    "c": "ߘߏ",
+    "d": "ߙߋ",
+    "e": "ߡߌ",
+    "f": "ߝߊ",
+    "g": "ߛߏߟ",
+    "a": "ߟߊ",
+    "b": "ߛߌ"
+  },
+  "scales": {
+    "major": "ߡߊߖߐߙ",
+    "minor": "ߡߌߣߐߙ"
+  },
+  "colors": {
+    "black": "ߝߌߡߡߊ",
+    "white": "ߞߏߌߡߊ",
+    "red": "ߥߎߟߋߙߌ߲ߜߏ",
+    "blue": "ߓߎߟߎߙߌ߲ߜߏ",
+    "yellow": "ߣߋߕߋߡߊ߲ߞߏ",
+    "green": "ߖߊߡߓߊߞߋߙߏ"
+  }
+}
